@@ -54,10 +54,10 @@ nav ul {
     background-color: rgba(0, 87, 25, .75);
 }
 .town img {
-    padding: 0px;
-    margin: 0px;
-    width: 200px;
-    height: auto;
+    width: 30em;
+    padding: 2.5em;
+    margin: 2.5em;
+    height: 18em;
 }
 li a:hover {
     background-color: forestgreen;
