@@ -46,3 +46,16 @@ header > img {
     width: 100px;
     height: auto;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: flow-root;
+    background-color: rgba(0, 87, 25, .75);
+}
+.town img {
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: auto;
+}
