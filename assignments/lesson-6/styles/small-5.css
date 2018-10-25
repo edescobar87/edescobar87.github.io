@@ -42,16 +42,28 @@ nav ul {
 
 nav ul li {
     display: inline;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
 }
 
-nav ul li a {}
+nav ul li:first-child a {border-left: none;}
 
-nav ul li.active a {}
+nav ul li.active a {
+  background-color: #7D4427;
+  color: #fff;
+}
 
-nav ul li a:hover {}
+nav ul li a:hover {
+  background-color: #FB6542;
+  color: #333;
+}
 
-main {}
-
+main {
+  padding: 0 2%;
+  min-height: 10rem;
+}
 main h2 {}
 
 main figure {
