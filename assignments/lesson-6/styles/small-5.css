@@ -66,16 +66,22 @@ main {
   padding: 0 2%;
   min-height: 10rem;
 }
-main h2 {}
+main h2 {
+font-size: 3rem;
+}
 
-main figure {
+main figure.town {
     margin: 0 0 .2rem 2%;
     width: 96%;
 }
 
-main figure img {}
+main figure.town img {width: 100%;}
 
-footer {}
+footer {
+  background-color: #7D4427;
+  padding: .5rem 2%;
+  text-align: center;
+}
 
 section.forecast {
     display: none;
