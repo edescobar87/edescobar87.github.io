@@ -30,7 +30,9 @@ header img {}
 
 header .subheading {}
 
-nav {}
+nav {
+color: white;
+}
 
 nav button {}
 
