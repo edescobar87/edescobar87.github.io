@@ -42,6 +42,7 @@ nav ul {
     padding: 0;
     display: flow-root;
     background-color: rgba(0, 87, 25, .75);
+    text-align: center;
 }
 
 nav ul li {
