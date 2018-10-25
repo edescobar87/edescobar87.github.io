@@ -38,6 +38,8 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flow-root;
+    background-color: rgba(0, 87, 25, .75);
 }
 
 nav ul li {
