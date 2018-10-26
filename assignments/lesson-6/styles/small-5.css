@@ -116,3 +116,29 @@ section.forecast {
   width: 50%;
   height: auto;
 }
+
+#map {
+  width: 26%;
+  height: auto;
+  float: right;
+}
+
+#camp {
+  width: 26%;
+  height: auto;
+  float: left;
+}
+
+.footnote {
+  display: inline-block;
+  text-align: center;
+  background-color: #8D230F;
+  color: white;
+  margin: 1.25rem;
+  padding: .5rem;
+  max-width: 100%;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+
