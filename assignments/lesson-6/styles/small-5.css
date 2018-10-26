@@ -102,3 +102,11 @@ section.forecast {
   opacity: 0.8;
   padding: 10px;
 }
+
+.article {
+  text-align: center;
+  background-color: #FB6542;
+  height: 20px;
+  color: black;
+  padding: 0;
+}
