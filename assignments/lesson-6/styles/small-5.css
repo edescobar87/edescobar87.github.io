@@ -73,12 +73,12 @@ main h2 {
   text-align: center;
 }
 
-main figure.town {
-    margin: 0 0 .2rem 2%;
-    width: 96%;
+.maincontent img {
+    margin: auto;
+    width: 100%;
 }
 
-main figure.town img {width: 100%;}
+.maincontent img {width: 100%;}
 
 footer {
   background-color: #7D4427;
