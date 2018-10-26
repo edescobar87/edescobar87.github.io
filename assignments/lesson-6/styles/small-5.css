@@ -1,16 +1,13 @@
-/* Delete these CSS comments after reading. */
-
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
-* {
+ {
     box-sizing: border-box;
 }
 
-/* This wildcard applies to all elements ensuring a box layout model */
+
 
 body {
     font-size: 16px;
-    ____________/* Declare the base font-family */
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 header,
@@ -31,7 +28,7 @@ header img {}
 header .subheading {}
 
 nav {
-color: white;
+  
 }
 
 nav button {}
@@ -66,12 +63,13 @@ nav ul li a:hover {
   color: #333;
 }
 
-main {
+.main-table {
   padding: 0 2%;
   min-height: 10rem;
 }
+
 main h2 {
-font-size: 3rem;
+  font-size: 3rem;
 }
 
 main figure.town {
@@ -89,4 +87,17 @@ footer {
 
 section.forecast {
     display: none;
+}
+
+.weathersummary{
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  width: 40%;
+  height: 40%;
+  color: white;
+  line-height: 0.3;
+  background-color: #505160;
+  opacity: 0.8;
+  padding: 10px;
 }
