@@ -110,3 +110,9 @@ section.forecast {
   color: black;
   padding: 0;
 }
+
+#family {
+  float: right;
+  width: 50%;
+  height: auto;
+}
