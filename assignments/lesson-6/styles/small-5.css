@@ -65,7 +65,7 @@ nav ul li a:hover {
 
 .main-table {
   padding: 0 2%;
-  min-height: 10rem;
+  min-height: auto;
 }
 
 main h2 {
