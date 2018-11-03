@@ -1,6 +1,6 @@
-{
-    box-sizing: border-box;
-}
+html {-webkit-text-size-adjust:  100%; -ms-text-size-adjust: 100%;}
+
+{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
 
@@ -49,8 +49,18 @@ nav ul {
     text-align: center;
 }
 nav ul li a {
-
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
+
+nav ul li.active a {
+    background-color: #7D4427; 
+    color: #fff;
+  }
+
 nav ul li a:hover {
   background-color: #FB6542;
   color: #333;
@@ -58,10 +68,6 @@ nav ul li a:hover {
 
 nav ul li:first-child a {border-left: none;}
 
-nav ul li.active a {
-    background-color: #7D4427;
-    color: #fff;
-  }
 
 nav ul li {
     display: inline;
