@@ -47,6 +47,7 @@ header > img {
     font-style: italic; 
 }
 
+
 nav {
   background-color: #505160;
   font-family: sans-serif;
@@ -176,4 +177,8 @@ section.forecast {
   font-size: 13px;
 }
 
-
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
