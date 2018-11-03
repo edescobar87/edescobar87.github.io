@@ -19,13 +19,33 @@ footer {
     /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header {}
+header {
+    background-color:#90AFC5;
+    text-align:center;
+    padding: .5rem;
+    color: white;
+}
 
-header h1 {}
+header > img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+.headertext {
+    display: inline-block;
+    vertical-align: middle;
+}
 
-header img {}
+.headertext h1 {
+    font-size: 3rem;
 
-header .subheading {}
+}
+
+.subheading {
+    font-size: 1.1rem;
+    color:#2E4600;
+    font-style: italic; 
+}
 
 nav {
   background-color: #505160;
@@ -89,8 +109,8 @@ main h2 {
 }
 
 .maincontent img {
-    margin: auto;
-    width: 100%;
+    margin: 0 0 0 2%;
+    width: 50%;
 }
 
 .maincontent img {width: 100%;}
