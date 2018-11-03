@@ -4,11 +4,7 @@
     
     nav button {
              display:none;
-             margin: .2rem 2%;
-             background-color: transparent;
-             border: none;
-             font-size: 1.6rem;
-             color: #FB6542; 
+             
     }  /* hamburger button does not need to be shown in the medium on up views */
     
     section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
