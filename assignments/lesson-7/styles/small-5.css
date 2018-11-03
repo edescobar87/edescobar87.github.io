@@ -87,6 +87,8 @@ nav ul li a:hover {
   color: #333;
 }
 
+nav ul.hide {display: none;}
+
 nav ul li:first-child a {border-left: none;}
 
 
