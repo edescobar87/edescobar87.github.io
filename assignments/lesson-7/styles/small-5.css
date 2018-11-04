@@ -127,18 +127,6 @@ section.forecast {
     display: none;
 }
 
-.weathersummary{
-  position: absolute;
-  top: 80px;
-  left: 40px;
-  width: 40%;
-  height: 40%;
-  color: white;
-  line-height: 0.3;
-  background-color: #505160;
-  opacity: 0.8;
-  padding: 10px;
-}
 
 .article {
   text-align: center;
