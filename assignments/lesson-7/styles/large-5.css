@@ -14,6 +14,8 @@
 
     nav ul.hide {display: block;}
     
+    box-sizing: border-box;
+    
     
   
 }
