@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Weather Site | Town of Preston | Weather Conditions and Forecast</title>
+    <meta name="description" content=" Weather Site that gives you Current Conditions">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/large-5.css" rel="stylesheet">
+    <link href="styles/small-5.css" rel="stylesheet">
+    <script src="script/scripts.js"></script>
+    
+    
+    
+</head>
+
+
+<body>
+    <header>
+        <img src="images/sunmixsnow.png" alt="logo" 
+        srcset="images/sunmixsnow.png 1x, images/sunmixsnow.png 2x, images/sunmixsnow.png 3x">
+        <div class="headertext">
+            <h1>Weather Adventure Warriors</h1>
+        <div class="subheading">Think Twice Before Walking On Ice</div>
+        </div>
+        <div class="currentconditions">
+            <img src="images/sunny.png" alt="Current Condition weather icon">
+            <p>Sunny</p>
+        </div>
+           
+    </header>
+
+     <nav class="clearfix">
+         <button onclick="toggleMenu()">&#9776;</button>
+         <ul id="main-table" class="hide">
+        <li> <a href="#">Menu</a> </li>
+        <li> <a href="https://edescobar87.github.io/">Home</a> </li>
+        <li class="active"> <a href="https://edescobar87.github.io/assignments/lesson-5.html">Preston</a> </li>
+        <li> <a href="#">Soda Springs</a> </li>
+        <li> <a href="#">Fish Haven</a> </li>
+        <li> <a href="stormcenter.html">Storm Center</a> </li>
+        <li> <a href="gallery-7.html">Gallery</a> </li>
+        </ul>
+    </nav>
+   
+    <main>
+        <h1>Storm Center</h1>
+        <form action="thanks.html">
+            <div class="form">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="1234554321"></label>
+                    <label class="top">Email <input type="tel" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Zip Code<input type="text" name="zip" placeholder="enterzip"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm Date <input type="date" name="completedDate"></label>
+                    <label class="top">Storm type 
+                        <select name="type">
+                            <option value="=">Please Select Type &#9662;</option>
+                            <option value="Flash Flood">Flash Flood</option>
+                            <option value="Hail">Haial</option>
+                            <option value="Hurricane">Hurricane</option>
+                            <option value="Thunderstorm">Thunderstorm</option>
+                            <option value="Tornado">Tornado</option>
+
+                    </select>
+                    </label>
+                    <label class="top">Storm Rating (1 to 10)<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                        onchange="adjustRating(this.value)"></label>
+                        <span id="ratingvalue">5</span><br>
+                        <script src="scripts/stormrating.js"></script>    
+                        
+                    <label class="top">Storm Region 
+                        <select name="region">
+                            <option value="">Please Select Region &#9962;</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Sugar City">Sugar City</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                            <option value="Winder">Soda Springs</option>
+                            
+                        </select>
+                        </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <label class="top">Are you in Danger:</label>
+                    <div>Check Box</div>
+                    <label class="sbs"><input type="radio" name="dng" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="dng" value="maybe">Maybe</label>
+                    <label class="sbs"><input type="radio" name="dng" value="no">No</label>
+                </fieldset>
+
+                <fieldset>
+                        <label>Comments:</label><br>
+                        <textarea rows="6" placeholder="Additional comments here"></textarea> <br>
+                    </fieldset>
+    
+                    <input type="submit" value="Submit Report" class="submitBtn">
+                    
+
+
+
+            </div>
+        </form>
+    
+
+    </main>
+
+ <footer >
+     &copy; Edwin Escobar | <div id="date"></div> | BYU-Idaho
+     
+ </footer>
+ <script src="script/currentdate.js"></script>
+
+</body>
+
+</html>
