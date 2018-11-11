@@ -54,9 +54,9 @@
                     <legend>User Information</legend>
                     <label class="top">First Name* <input type="text" name="fname" required></label>
                     <label class="top">Last Name* <input type="text" name="lname" required></label>
-                    <label class="top">Phone <input type="tel" name="phone" placeholder="1234554321"></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder="1234554321" required></label>
                     <label class="top">Email <input type="tel" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Zip Code<input type="text" name="zip" placeholder="enterzip"></label>
+                    <label class="top">Zip Code<input type="text" name="zip" placeholder="enter zip" required></label>
                 </fieldset>
 
                 <fieldset>
@@ -66,7 +66,7 @@
                         <select name="type">
                             <option value="=">Please Select Type &#9662;</option>
                             <option value="Flash Flood">Flash Flood</option>
-                            <option value="Hail">Haial</option>
+                            <option value="Hail">Hail</option>
                             <option value="Hurricane">Hurricane</option>
                             <option value="Thunderstorm">Thunderstorm</option>
                             <option value="Tornado">Tornado</option>
@@ -76,7 +76,7 @@
                     <label class="top">Storm Rating (1 to 10)<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
                         onchange="adjustRating(this.value)"></label>
                         <span id="ratingvalue">5</span><br>
-                        <script src="scripts/stormrating.js"></script>    
+                       <script src="script/stormrating.js"></script>        
                         
                     <label class="top">Storm Region 
                         <select name="region">
