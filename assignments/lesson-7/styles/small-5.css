@@ -1,7 +1,14 @@
 html {-webkit-text-size-adjust:  100%; -ms-text-size-adjust: 100%;}
 
-{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
 
 
 body {
@@ -170,4 +177,70 @@ section.forecast {
     content: "";
     display: table;
     clear: both;
+}
+
+.grid-container {
+    background-color: #505160;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-areas: 'a' 'b' 'c' 'd' 'e' 'f';
+}
+
+.grid-container div {
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text {
+  background-color: #90AFC5;
+  color: black;
+  font-size: 16px;
+  padding: 200px;
+}
+
+.mid {
+    transition: .4s ease;
+    position: relative;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -48%);
+    text-align: center;
+}
+.img1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7wvSrvFn49XAlQGcJkDDpHm371a20O6rt8xAOirh-548ahlxi");
+    grid-area: a;
+    transition: .4s ease;
+}
+
+.img2 {
+    background-image: url("http://for91days.com/photos/Idaho/Twin%20Falls/Snake-River-Idaho-Falls.jpg");
+    grid-area: b;
+    transition: .4s ease;
+}
+
+.img3 {
+  background-image: url("https://render.fineartamerica.com/images/rendered/default/poster/8.000/4.750/break/images/artworkimages/medium/1/lower-mesa-falls-panoramic-leland-d-howard.jpg");
+  grid-area: c;
+  transition: .4s ease;
+}
+
+.img4 {
+  background-image: url("https://images.fineartamerica.com/images-medium-large/rain-in-the-mountains-fernando-alvarez.jpg");
+  grid-area: d;
+  transition: .4s ease;
+}
+
+.img5 {
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/trib.com/content/tncms/assets/v3/editorial/5/6b/56b567f5-ae49-5eae-abcc-9d7de8a20df0/54e7c43a7f4a1.image.jpg");
+  grid-area: e;
+  transition: .4s ease;
+}
+
+.img6 {
+  background-image: url("https://i.pinimg.com/originals/24/50/3a/24503aed4bc0e4c7775a1306eaf73526.jpg");
+  grid-area: f;
+  transition: .4s ease;
 }
