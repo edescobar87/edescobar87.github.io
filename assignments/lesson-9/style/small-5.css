@@ -55,6 +55,22 @@ header > img {
 }
 
 
+.currentconditions {
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.2rem;
+    vertical-align: middle;
+    color: #fff;
+    background-color: rgba(0, 87, 25, .75);
+    border: 1pt solid rgba(0, 87, 25,1);
+    font-size: 1.1rem;
+}
+.currentconditions img {
+    width: 100px;
+    height: auto;
+} 
+
+
 nav {
   background-color: #505160;
   font-family: sans-serif;
@@ -304,4 +320,33 @@ section.forecast {
 
 .img6 :hover {
     box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.view, img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.weathsumm h3 {
+text-decoration: underline;
+padding: 5px;
+color: #2E4600;
+}
+
+.weathdetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weathdetail p {
+    padding: 5px;
+}
+
+.motto {
+    color: #2E4600;
+    text-align: center;
 }
