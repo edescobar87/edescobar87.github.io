@@ -210,6 +210,8 @@ section.forecast {
     background-position: center center;
 }
 
+/* @ media only screen */
+
 @media only screen and (min-width: 37.5em){
     .grid-container{
         grid-template-areas: 'a b' 'c d' 'e f';
@@ -220,6 +222,21 @@ section.forecast {
     .grid-container {
         grid-template-areas: 'a b c' 'd e f';
     }
+}
+
+
+@media only screen and (min-width: 37.5em){
+    main.town{
+        grid-auto-columns: 50%;
+        grid-template-areas: 'fish pres' 'soda.';
+    }
+
+@media only screen and (min-width: 64em){
+    main.town {
+        grid-auto-columns: 33%;
+        grid-template-areas: 'fish pres soda';
+    }
+}
 }
 
 .text {
@@ -338,9 +355,9 @@ color: #2E4600;
 }
 
 .weathsumm{
-    background-color: #505160;
+    background-color: rgba(58, 58, 211, 0.6);
     position: absolute;
-    top: 28%;
+    top: 65%;
     left: 20%;
     padding: 0px;
 }
