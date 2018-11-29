@@ -1,18 +1,5 @@
 @media only screen and (min-width: 1000px) {
     
-    @media only screen and (min-width: 1024px) {
-    
-        header, nav, main, footer {
-            max-width: 64rem;
-            margin:auto;
-        }
-    
-        /*------ MAIN ------*/
-        form label.sbs {
-            padding: .4rem 0;
-        }
-    
-    }
   
 header {
     background-color:#90AFC5;
@@ -53,12 +40,18 @@ header > img {
     font-size: 1.1rem;
 }
 
+.currentconditions img {
+    width: 100px;
+    height: auto;
+}
+
 .main-table {
    background-color: #505160;
    overflow: hidden;
    text-align: center;
 }
 
+nav
 nav li {
     display: inline-flex;
 }
@@ -74,5 +67,14 @@ nav li a :hover {
 
 nav button {
   display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.view, img{
+    width: 80%;
+    height: auto;
 }
 }
