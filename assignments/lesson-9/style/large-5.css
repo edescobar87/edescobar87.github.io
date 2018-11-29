@@ -77,4 +77,10 @@ nav button {
     width: 80%;
     height: auto;
 }
+ .weathsumm{
+    position: absolute;
+    top: 11%;
+    left: 14%;
+    padding: 20px;
+}
 }
