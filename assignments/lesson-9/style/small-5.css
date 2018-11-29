@@ -337,6 +337,14 @@ padding: 5px;
 color: #2E4600;
 }
 
+.weathsumm{
+    background-color: #505160;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    padding: 0px;
+}
+
 .weathdetail {
     display: grid;
     grid-template-columns: 1fr 1fr;
