@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Weather Site | Town of Preston | Weather Conditions and Forecast</title>
+    <meta name="description" content=" Weather Site that gives you Current Conditions">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/large-5.css" rel="stylesheet">
+    <link href="styles/small-5.css" rel="stylesheet">
+    <script src="script/scripts.js"></script>
+    
+    
+    
+</head>
+
+
+<body>
+    <header>
+        <img src="images/sunmixsnow.png" alt="logo" 
+        srcset="images/sunmixsnow.png 1x, images/sunmixsnow.png 2x, images/sunmixsnow.png 3x">
+        <div class="headertext">
+            <h1>Weather Adventure Warriors</h1>
+        <div class="subheading">Think Twice Before Walking On Ice</div>
+        </div>
+        <div class="currentconditions">
+            <img src="images/sunny.png" alt="Current Condition weather icon">
+            <p>Sunny</p>
+        </div>
+           
+    </header>
+
+     <nav class="clearfix">
+         <button onclick="toggleMenu()">&#9776;</button>
+         <ul id="main-table" class="hide">
+        <li> <a href="https://edescobar87.github.io/">Menu</a> </li>
+        <li> <a href="index-9.html">Home</a> </li>
+        <li class="active"> <a href="https://edescobar87.github.io/assignments/lesson-5.html">Preston</a> </li>
+        <li> <a href="#">Soda Springs</a> </li>
+        <li> <a href="#">Fish Haven</a> </li>
+        <li> <a href="stormcenter.html">Storm Center</a> </li>
+        <li> <a href="gallery-7.html">Gallery</a> </li>
+        </ul>
+    </nav>
+   
+    <main class="whole">
+        <div class="call">
+            <picture>
+                <source media="(min-width: 900px)" srcset="images/view.jpeg">
+                    <img src="images/view.jpeg"> alt="View Image">
+            </picture>
+            <div class="weathsumm">
+            <h2>Weather Adventure Warriors </h2>
+            <div class="weathdetail">
+                <p class="motto">Think Twice Before Walking On Ice</p>
+        </div>
+        </div>
+        </div>
+       <section class="town">
+           
+       </section>
+    
+
+    </main>
+
+ <footer >
+     &copy; Edwin Escobar | <div id="date"></div> | BYU-Idaho
+     
+ </footer>
+ <script src="script/currentdate.js"></script>
+ <script src="script/towndata.js"></script>
+ <script src="script/api.js"></script>
+
+
+</body>
+
+</html>
