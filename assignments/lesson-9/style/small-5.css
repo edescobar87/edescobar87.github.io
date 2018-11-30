@@ -375,3 +375,30 @@ color: #2E4600;
     color: #2E4600;
     text-align: center;
 }
+
+/* Artilce Section*/
+
+main .town article:nth-child(1) {
+    grid-area: fish;
+    background: #90AFC5;
+    box-shadow: #505160;
+    padding: 20px;
+    margin: 20px;
+}
+
+main .town article h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+main .town article p {
+    padding: 22px;
+}
+
+main .town article ul {
+    list-style: none;
+}
+
+main .town article ul li {
+    padding: 10px;
+}
