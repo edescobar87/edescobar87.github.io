@@ -425,6 +425,10 @@ main .town {
     grid-template-areas: 'fish' 'pres' 'soda';
 }
 
+main{
+    background-color: #90AFC5;
+}
+
 .whole view picture img {
     width: 100%;
 }
