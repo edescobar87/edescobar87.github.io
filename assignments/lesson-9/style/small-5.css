@@ -386,6 +386,22 @@ main .town article:nth-child(1) {
     margin: 20px;
 }
 
+main .town article:nth-child(2) {
+    grid-area: pres;
+    background: #90AFC5;
+    box-shadow: #505160;
+    padding: 20px;
+    margin: 20px;
+}
+
+main .town article:nth-child(3) {
+    grid-area: soda;
+    background: #90AFC5;
+    box-shadow: #505160;
+    padding: 20px;
+    margin: 20px;
+}
+
 main .town article h2 {
     text-align: center;
     text-decoration: underline;
@@ -401,4 +417,17 @@ main .town article ul {
 
 main .town article ul li {
     padding: 10px;
+}
+
+main .town {
+    display: grid;
+    text-align: left;
+    grid-auto-columns: 100%;
+    margin: auto;
+    grid-gap: 10px;
+    grid-template-areas: 'fish' 'pres' 'soda';
+}
+
+.whole view picture img {
+    width: 100%;
 }
