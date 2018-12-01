@@ -121,7 +121,7 @@ nav ul li {
     border: 1px solid #90AFC5;
 }
 
-.main-table {
+#main-table {
   padding: 0 2%;
   min-height: auto;
 }
