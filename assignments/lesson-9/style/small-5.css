@@ -66,12 +66,7 @@ header > img {
     width: 100px;
     height: auto;
 } 
-
-
-nav {
-  background-color: #505160;
-  font-family: sans-serif;
-}
+/* NAVIGATION BAR */
 
 nav button {
     margin: .2rem 2%;
@@ -79,6 +74,11 @@ nav button {
     border: none;
     font-size: 1.6rem;
     color: #FB6542; 
+}
+
+nav {
+  background-color: #505160;
+  font-family: sans-serif;
 }
 
 nav ul {
@@ -89,23 +89,26 @@ nav ul {
     background-color: #505160;
     text-align: center;
 }
+
 nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
     color: #000;
-    
+    border-top: 1px solid rgba(0,0,0,0.8)
 }
+
+nav ul li a:hover {
+    background-color: #FB6542;
+    color: #333;
+  }
 
 nav ul li.active a {
     background-color: #7D4427; 
     color: #fff;
   }
 
-nav ul li a:hover {
-  background-color: #FB6542;
-  color: #333;
-}
+
 nav ul.hide {display: none;}
 
 nav ul li:first-child a {border-left: none;}
