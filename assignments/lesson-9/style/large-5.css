@@ -45,7 +45,7 @@
         height: auto;
     }
     
-    .main-table {
+    #main-table {
        background-color: #505160;
        overflow: hidden;
        text-align: center;
