@@ -1,2 +1,1 @@
-<script src="script/currentdate.js">
-        </script>
+document.write(Date());
