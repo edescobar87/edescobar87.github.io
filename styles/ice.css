@@ -6,6 +6,16 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
+/*number price code */
+.price{
+width: 150px;
+}
+
+.dollar{
+width: 150px;
+}
+
+/*end of number price */
 h2{
 color: blue;
 }
