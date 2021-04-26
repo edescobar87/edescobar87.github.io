@@ -1,0 +1,46 @@
+.box1{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    font-family: font-family: 'Ubuntu', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h2{
+color: blue;
+}
+h1{
+    color: blue;
+}
+
+.permonth{
+    color: blue;
+}
+
+.body{
+    background-color: gray;
+    font-family: font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.viewbutton{
+    background-color: gray;
+}
+
+.box2{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    font-family: font-family: 'Ubuntu', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.box3{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    font-family: font-family: 'Ubuntu', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
