@@ -8,11 +8,12 @@
 }
 /*number price code */
 .price{
-width: 150px;
+    font-size: 20px;  
+    vertical-align: top;
 }
 
 .dollar{
-width: 150px;
+    vertical-align: top;
 }
 
 /*end of number price */
