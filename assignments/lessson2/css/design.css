@@ -8,10 +8,12 @@
 
     /* Grid Container */ 
   display: grid;
-  grid-column-gap: 80px;
+  grid-column-gap: 25rem;
   grid-template-columns: auto auto auto;
   background-color: #2196F3;
   padding: 10px;
+  justify-content: space-between;
+  
 
        
 }
@@ -24,8 +26,10 @@
     font-size: 30px;
     text-align: center;
     text-align: left;
+    justify-content: space-evenly;
   }
 
+  
 h2{
 color: blue;
 }
@@ -33,7 +37,14 @@ h1{
     color: blue;
     text-align: center;
     text-align: left;
+   
 }
+
+h3{
+  color: blue;
+}
+
+
 
 
 .body{
