@@ -1,5 +1,12 @@
 @media only screen and (min-width: 32.5em ) {
 
+  
+    body.body{
+grid-template-columns: 1fr, 1fr;;
+
+    }
+  
+
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
     /* nav button { display:none; }  hamburger button does not need to be shown in the medium on up views */
