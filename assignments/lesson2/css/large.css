@@ -3,4 +3,7 @@
   body.body{
       background-color: gray;
   }
+  main{
+    grid-template-columns: 1fr, 1fr, 1fr;
+  }
 }
