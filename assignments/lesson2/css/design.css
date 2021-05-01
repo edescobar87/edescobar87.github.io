@@ -1,0 +1,59 @@
+.grid-container{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    font-family: font-family 'Ubuntu', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    /* Grid Container */ 
+  display: grid;
+  grid-column-gap: 25rem;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  /* justify-content: space-between; */
+  
+
+       
+}
+
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-align: left;
+    justify-content: space-evenly;
+  }
+
+  
+h2{
+color: blue;
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-align: left;
+   
+}
+
+h3{
+  color: blue;
+}
+
+
+
+
+.body{
+    background-color: gray;
+    font-family: font-family 'Ubuntu', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    
+    
+}
+
