@@ -1,0 +1,27 @@
+/* samll/phone view */
+body {
+background-color: white;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #12aaeb;
+
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    grid-template-columns: auto;
+    display: grid;
+
+}
+
+#navigation li:first-child {
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
