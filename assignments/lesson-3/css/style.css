@@ -56,7 +56,7 @@ body {
 
   main {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	font-size: 0.8rem;
 }
 main article {
@@ -64,6 +64,10 @@ main article {
 	border: 1px solid #bbb;
 	padding: 0 1rem;
 	background-color: #eee;
+}
+
+article:nth-child(3) {
+    grid-column: span 2;
 }
     
     @media only screen and (min-width: 34.5em){
@@ -178,5 +182,9 @@ footer {
 
   /* Header Tags */
 
-
+  main h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-emphasis-color: #7D4427;
+  }
   
