@@ -123,3 +123,38 @@ header > img {
     width: 100px;
     height: auto;
 }
+
+/* Footer tags*/
+
+footer {
+    background-color: #7D4427;
+    padding: .5rem 2%;
+    text-align: center;
+  }
+
+  .footnote {
+    display: inline-block;
+    text-align: center;
+    background-color: #8D230F;
+    color: white;
+    margin: 1.25rem;
+    padding: .5rem;
+    max-width: 100%;
+    line-height: 1.6;
+    font-size: 13px;
+  }
+
+  /* Bottom Images */
+
+  #map {
+    width: 26%;
+    height: auto;
+    float: right;
+  }
+  
+  #camp {
+    width: 39%;
+    height: auto;
+    float: left;
+  }
+  
