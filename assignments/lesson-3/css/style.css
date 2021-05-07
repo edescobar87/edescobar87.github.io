@@ -77,7 +77,20 @@ body {
         }
     }
     
-/* Header tags*/    
+/* Header tags*/ 
+header {
+    background-color:#90AFC5;
+    text-align:center;
+    padding: .5rem;
+    color: white;
+
+}
+
+header > img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}   
 
 .headertext {
     display: inline-block;
@@ -87,6 +100,13 @@ body {
 .headertext h1 {
     font-size: 3rem;
 
+}
+
+
+.subheading {
+    font-size: 1.1rem;
+    color:#2E4600;
+    font-style: italic; 
 }
 
 .currentconditions {
