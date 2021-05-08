@@ -226,6 +226,10 @@ footer {
     text-align: center;
 }
 
+.pstyle {
+    font-family: fantasy;
+}
+
 
 /* Font Styles */
 
@@ -234,7 +238,7 @@ footer {
 }
 
 .secondstyle {
-    font-family: initial;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
   
   
