@@ -189,6 +189,11 @@ footer {
 
   h1 {
       text-align: center;
+      font-size: xx-large;
+  }
+
+  .size {
+      font-size: xx-large;
   }
 
   li {
