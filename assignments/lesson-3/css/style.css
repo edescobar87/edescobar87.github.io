@@ -192,9 +192,15 @@ footer {
       font-size: xx-large;
   }
 
+  h3 {
+      align-content: center;
+  }
+
   .size {
       font-size: xx-large;
   }
+
+
 
   li {
       font-size: large;
