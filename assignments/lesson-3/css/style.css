@@ -184,11 +184,15 @@ footer {
   /* Header Tags */
 
   h2{
-      color: #7d4427;
+      color: #2E4600;
   }
 
   h1 {
       text-align: center;
+  }
+
+  li {
+      font-size: large;
   }
 
   main h2 {
@@ -197,6 +201,17 @@ footer {
     text-emphasis-color: #7D4427;
   }
 
+
+  /* Paragraph Tags*/
+
+  p {
+    color: #505160;
+    font-size: large;
+}
+
+.color {
+    text-align: center;
+}
   
   
   
