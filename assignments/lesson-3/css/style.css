@@ -192,8 +192,10 @@ footer {
       font-size: xx-large;
   }
 
+  
+
   h3 {
-      align-content: center;
+      align-self: center;
   }
 
   .size {
@@ -222,6 +224,13 @@ footer {
 
 .color {
     text-align: center;
+}
+
+
+/* Font Styles */
+
+.fontstyle {
+    font-family:fantasy;
 }
   
   
