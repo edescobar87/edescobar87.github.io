@@ -183,10 +183,16 @@ footer {
 
   /* Header Tags */
 
+  h2{
+      color: #7d4427;
+  }
+
   main h2 {
     font-size: 2rem;
     text-align: center;
     text-emphasis-color: #7D4427;
   }
+
+  
   
   
