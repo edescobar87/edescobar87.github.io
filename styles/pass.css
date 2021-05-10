@@ -89,6 +89,12 @@
         align-items: center;
     }
 
+    .last-row p{
+        text-align: center;
+    color: #001b3673;
+    }
+
+
     #big{
         margin: 20px;
     }
