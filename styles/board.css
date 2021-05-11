@@ -14,20 +14,20 @@ main {
     font-size: 8px;
 }
 
-.top-row {
+.row2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.top-row p{
+.row2 p{
     margin-top: -4px;
     padding-left: 10px;
     color: #001b3673;
 }
 
-.top-row span {
+.row2 span {
     margin: 12px 25px 0;
     color: #001b3673;
 }
@@ -37,7 +37,7 @@ main {
 }
 
 
-.second-row{
+.row2{
     width: 100%;
     background: #001B36;
     color: white;
@@ -46,25 +46,25 @@ main {
     align-items: center;
 }
 
-.airports{
+.air{
     margin: 20px 40px;
     display: flex;
     flex-direction: column;
 }
 
-.airports span{
+.air span{
     color: rgba(256, 256, 256, .4);
     text-align: center;
 }
 
-.airports h2{
+.air h2{
     font-size: 30px;
     font-weight: bold;
     margin: 5px 0px;
     text-align: center;
 }
 
-.third-row{
+.row3{
     width: 100%;
     text-align: center;
     background-color: #F1F1F1;
@@ -74,7 +74,7 @@ main {
 }
 
 
-.third-row p{
+.row3 p{
     font-size: 18px;
     line-height: 0px;
     margin: 10px;
