@@ -163,6 +163,16 @@ footer {
     font-size: 13px;
   }
 
+  .article {
+    text-align: center;
+    background-color: #FB6542;
+    height: 20px;
+    color: black;
+    padding: 0;
+  }
+  
+  
+
   /* Bottom Images */
 
   #map {
@@ -175,6 +185,12 @@ footer {
     width: 39%;
     height: auto;
     float: left;
+  }
+
+  #family {
+    float: right;
+    width: 50%;
+    height: auto;
   }
 
   /* Town*/
