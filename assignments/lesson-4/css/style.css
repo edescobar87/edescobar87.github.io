@@ -196,9 +196,12 @@ footer {
     
   }
 
-  /* Town*/
+  /* Town Image*/
 
-  
+  .town{
+      max-width:  100%;
+      
+  }
 
   /* Header Tags */
 
