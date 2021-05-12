@@ -89,17 +89,17 @@ main {
     font-weight: bold;
 }
 
-.bottom-row{
+.last-row{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.bottom-row p{
+.last-row p{
     text-align: center;
     color: #001b3673;
 }
 
-#big{
+#bar{
     margin: 20px;
 }
