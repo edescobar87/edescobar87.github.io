@@ -1,8 +1,101 @@
+/* samll/phone view */
 body {
-    font-family: 'Able', 'sans-serif';
-    font-size: 18px;
+    background-color: white;
+    }
+    
+    nav{
+        margin: 0 auto;
+        max-width: 360px;
+        background-color: #12aaeb;
+    
+    }
+    
+    #navigation {
+        list-style: none;
+        padding: 0;
+        grid-template-columns: auto;
+        display: grid;
+    
+    }
+    
+    #navigation li:first-child {
+        display: block;
+    }
+    
+    #navigation li {
+        display: none;
+    }
+    
+    #navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    
+    }
+    
+    #navigation a:hover, #navigation a.active:hover {
+        color: white;
+        background-color: black;
+    
+    }
+    
+    #navigation a.active{
+        background-color: rgba(0,0,0,.55);
+        color: white;
+        /* border-bottom: 5px, solid black; */
+    }
+    
+    #navigation.responsive li{
+    display: block;
+    }
+
+    /* Site Purpose */
+
+  main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr .3fr;
+	font-size: 0.8rem;
+}
+main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
 }
 
+article:nth-child(3) {
+    grid-column: span 2;
+}
+    
+    @media only screen and (min-width: 34.5em){
+        nav {
+            max-width: 100%;
+        }
+        #navigation {
+            grid-template-columns: repeat(7,auto);
+        }
+        #navigation li{
+            display: block; /*change state in small view*/
+        }
+        #navigation a {
+            text-align: center;
+        }
+        #navigation li:first-child{
+            display: none;
+        }
+    }
+    
+    @media only screen and (min-width: 54.5em){
+        #navigation {
+            width: 800px;
+            margin: 16px auto;
+        }
+    }
+    
+/* Header tags*/ 
 header {
     background-color:#90AFC5;
     text-align:center;
@@ -15,7 +108,8 @@ header > img {
     width: 150px;
     height: auto;
     vertical-align: middle;
-}
+}   
+
 .headertext {
     display: inline-block;
     vertical-align: middle;
@@ -25,6 +119,7 @@ header > img {
     font-size: 3rem;
 
 }
+
 
 .subheading {
     font-size: 1.1rem;
@@ -46,3 +141,106 @@ header > img {
     width: 100px;
     height: auto;
 }
+
+/* Footer tags*/
+
+footer {
+    background-color: #7D4427;
+    padding: .5rem 2%;
+    text-align: center;
+  }
+
+  .footnote {
+    display: inline-block;
+    text-align: center;
+    background-color: #8D230F;
+    color: white;
+    margin: 1.25rem;
+    padding: .5rem;
+    max-width: 100%;
+    max-height: 50em;
+    line-height: 1.6;
+    font-size: 13px;
+  }
+
+  /* Bottom Images */
+
+  #map {
+    width: 26%;
+    height: auto;
+    float: right;
+  }
+  
+  #camp {
+    width: 39%;
+    height: auto;
+    float: left;
+  }
+
+  /* Town*/
+
+  
+
+  /* Header Tags */
+
+  h2{
+      color: #2E4600;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: xx-large;
+  }
+
+  
+
+  h3 {
+      align-self: center;
+  }
+
+  .size {
+      font-size: xx-large;
+  }
+
+
+
+  li {
+      font-size: large;
+  }
+
+  main h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-emphasis-color: #7D4427;
+  }
+
+
+  /* Paragraph Tags*/
+
+  p {
+    color: #505160;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.color {
+    text-align: center;
+}
+
+#pstyle {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Font Styles */
+
+.fontstyle {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.secondstyle {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  
+  
