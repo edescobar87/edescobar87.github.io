@@ -239,6 +239,11 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+#color{
+    color: #505160;
+}
+
 .color {
     text-align: center;
 }
