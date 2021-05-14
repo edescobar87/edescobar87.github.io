@@ -154,8 +154,8 @@ header > img {
 .weathersummary{
     position:sticky;
     top: 80px;
-    left: 40px;
-    width: 40%;
+    left: 30px;
+    width: 20%;
     height: 40%;
     color: white;
     line-height: 0.3;
