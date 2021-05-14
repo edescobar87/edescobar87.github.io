@@ -77,7 +77,7 @@ article:nth-child(3) {
     grid-column: span 2;
     
 }
-    
+    /* medium view*/
     @media only screen and (min-width: 34.5em){
         nav {
             max-width: 100%;
@@ -96,6 +96,8 @@ article:nth-child(3) {
         }
     }
     
+
+    /* Large View  */
     @media only screen and (min-width: 54.5em){
         #navigation {
             width: 800px;
