@@ -1,6 +1,6 @@
 /* samll/phone view */
 body {
-    background-color: white;
+    background-color: #505160;
     }
     
     nav{
@@ -67,7 +67,7 @@ main article {
 }
 
 article{
-    background-color: khaki;
+    background-color:#90AFC5;
     margin-top: .5em;
     margin-bottom: .5em;
     padding: 1em;
@@ -178,7 +178,7 @@ footer {
   .footnote {
     display: inline-block;
     text-align: center;
-    background-color: #8D230F;
+    background-color: #2E4600;
     color: white;
     margin: 1.25rem;
     padding: .5rem;
