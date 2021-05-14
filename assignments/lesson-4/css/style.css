@@ -153,15 +153,15 @@ header > img {
 /* Weather Summary */
 .weathersummary{
     position: fixed;
-    top: 60px;
+    top: 450px;
     left: 30px;
-    width: 30%;
+    width: 20%;
     height: 30%;
     color: white;
     line-height: 0.3;
     background-color: #505160;
     opacity: 0.8;
-    padding: 10px;
+    padding: 0.1px;
 }
 
 /* Footer tags*/
@@ -213,18 +213,24 @@ footer {
 
   #family {
     float: right;
-    width: 30%;
-    height: 40%;
+    width: 25%;
+    height: 25%;
     
   }
 
   /* Banner Image*/
 
-  .land{
-      max-width:  100%;
+  /* .land{
+      max-width:  100%;   
+  } */
+
+
+  .landscape{
+      max-width: 100%;
+      background-size: cover;
+      background-position: center;
       
-      
-      
+
   }
 
   /* Header Tags */
