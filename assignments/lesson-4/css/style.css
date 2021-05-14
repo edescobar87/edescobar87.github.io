@@ -204,11 +204,14 @@ footer {
     
   }
 
-  /* Town Image*/
+  /* Banner Image*/
 
   .land{
       max-width:  100%;
-      justify-content: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
       
   }
 
