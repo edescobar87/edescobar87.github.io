@@ -66,6 +66,13 @@ main article {
 	background-color: #FB6542;
 }
 
+article{
+    background-color: khaki;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: 1em;
+}
+
 article:nth-child(3) {
     grid-column: span 2;
     
@@ -185,15 +192,15 @@ footer {
   }
   
   #camp {
-    width: 39%;
-    height: auto;
+    width: 38%;
+    height: 40%;
     float: left;
   }
 
   #family {
     float: right;
-    width: 50%;
-    height: auto;
+    width: 30%;
+    height: 40%;
     
   }
 
