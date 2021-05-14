@@ -152,11 +152,11 @@ header > img {
 
 /* Weather Summary */
 .weathersummary{
-    position: absolute;
-    top: 80px;
-    left: 40px;
-    width: 40%;
-    height: 40%;
+    position: fixed;
+    top: 60px;
+    left: 30px;
+    width: 30%;
+    height: 30%;
     color: white;
     line-height: 0.3;
     background-color: #505160;
