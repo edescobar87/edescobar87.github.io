@@ -206,8 +206,9 @@ footer {
 
   /* Town Image*/
 
-  .town{
+  .land{
       max-width:  100%;
+      justify-content: center;
       
   }
 
