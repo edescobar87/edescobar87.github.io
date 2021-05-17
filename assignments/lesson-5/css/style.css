@@ -199,6 +199,13 @@ footer {
     font-size: 13px;
   }
 
+  /*  Bottom Info */
+    .info {
+      text-align: left;
+      padding: .5rem;
+      
+  }
+
   .article {
     text-align: center;
     background-color: #FB6542;
@@ -250,15 +257,20 @@ footer {
 
 
   /* Forecast Temps */
-    section.forecast:nth-child(4){
+    /* section.forecast:nth-child(4){
         grid-row: 2/4;
         grid-column: 1/4;
         display: grid;
         grid-template-columns: repeat(6, auto);
-    }
+    } */
 
     .forecast{
+        display: block;
         background-color: slategray;
+        grid-row: 2/4;
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
         
     }
 
