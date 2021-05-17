@@ -162,6 +162,7 @@ header > img {
     color: white;
     line-height: 0.3;
     background-color: #505160;
+    box-shadow: 0 0 30px #2E4600;
     opacity: 0.8;
     padding: 0.1px;
 }
@@ -171,7 +172,10 @@ header > img {
 
 .weatherdetails{
     padding-left: 10px;
+    text-align:justify;
 }
+
+
 
 /* Footer tags*/
 
