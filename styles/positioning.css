@@ -1,9 +1,9 @@
 #fullwidth{
     width: 100%;
-    background-color: purple;
+    background-color: rgb(8, 61, 105);
     color: white;
     padding: 10px;
-    border: 12px solid black;
+    border: 12px solid rgb(9, 122, 107);
     box-sizing: border-box;
     position: sticky;
     top: 0;
@@ -20,6 +20,26 @@
 }
 
 .overlay {
+    position: absolute;
+    width: 50px;
+    right: 50px;
+    background-color: white;
+    height: 50px;
+    top: 50px;
+}
+
+#image2{
+
+    position: relative;
+    width: 500px;
+}
+
+#image2 img {
+  width: 500px;
+
+}
+
+.overlay2 {
     position: absolute;
     width: 50px;
     right: 50px;
