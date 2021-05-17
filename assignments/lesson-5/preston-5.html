@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 
 <html lang="en-us">
@@ -8,17 +10,15 @@
     <title>Weather Site | Town of Preston | Weather Conditions and Forecast</title>
     <meta name="description" content=" Weather Site that gives you Current Conditions">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link href="styles/normalize.css" rel="stylesheet">
-    <link href="styles/main-5.css" rel="stylesheet">
-    <link href="styles/large-5.css" rel="stylesheet">
-    <link href="styles/small-5.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
-    
-    
+    <!--CSS/JS Style Sheet-->
+    <link href="css/normalize.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/main.js"></script>
 </head>
 
 
 <body>
+    <!-- header will be here -->
     <header>
         <img src="images/sunmixsnow.png" alt="sunny and mix logo"> 
         <div class="headertext">
@@ -32,74 +32,141 @@
             <ul>
                 <li></li>
                 
-            </ul>
-            <!-- navigation will go here -->
-        </nav>
+            </ul>   
     </header>
-
- <main>
-
-     <nav>
-         <ul class="table">
-        <li> <a href="#" onclick="">Menu</a> </li>
-        <li> <a href="#">Home</a> </li>
-        <li> <a href="#">Preston</a> </li>
-        <li> <a href="#">Soda Springs</a> </li>
-        <li> <a href="#">Fish Haven</a> </li>
-        <li> <a href="#">Storm Center</a> </li>
-        <li> <a href="#">Gallery</a> </li>
+ <!-- navigation will go here -->
+    <nav>
+        <ul id="navigation">
+            
+                <li><a class="ham" href="#">&#9776</a></li>
+                <li><a class="#" href="https://edescobar87.github.io/assignments/lesson-3/index.html">Home</a></li>
+                <li><a class="#" href="#">About</a></li>
+                <li><a class="active" href="https://edescobar87.github.io/assignments/lesson-3/color-scheme.html">Preston</a></li>
+                <li><a href="https://edescobar87.github.io/assignments/lesson-3/target-audience.html">Soda Springs</a></li>
+                <li><a href="https://edescobar87.github.io/assignments/lesson-3/typography.html">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            
         </ul>
     </nav>
 
-    <div class="town">
-            <img src="images/town.jpeg" alt="Town of Preston" class="town">
-            <section class="weathersummary">
-              <h3>Weather Summary</h3>
-              <div class="weatherdetails">
-                <p class="label">Currently:</p>
-                <p class="value">Sunny</p>
-                <p class="label">Temperature:</p>
-                <p class="value">76 &deg;F</p>
-                <p class="label">Humidity:</p>
-                <p class="value">69%</p>
-                <p class="label">Precipitation:</p>
-                <p class="value">0 inches</p>
-                <p class="label">Wind Speed:</p>
-                <p class="value">5 mph</p>
-              </div>
-            </section>
-          </div>
+       <!-- banner image will go here -->
+       <div class="land">
+        <section class="weathersummary">
+            <h2>Weather Summary</h2>
+            <div class="weatherdetails">
+              <p class="label">Currently: Sunny</p>
+              <!-- <p class="value">Sunny</p> -->
+              <p class="label">Temperature: 76 &deg;F</p>
+              <!-- <p class="value">76 &deg;F</p> -->
+              <p class="label">Humidity: 69%</p>
+              <!-- <p class="value">69%</p> -->
+              <p class="label">Precipitation: 0 inches</p>
+              <!-- <p class="value">0 inches</p> -->
+              <p class="label">Wind Speed: 5 mph</p>
+              <!-- <p class="value">5 mph</p> -->
+            </div>
+          </section>
+        <h2>Preston Idaho</h2>
+        <img src="images/land.jpg" alt="Land Scape" class="landscape">
+        
+    </div>
+
+    <main>
+          
+        
+            
+        
+        <!-- <section> -->
+                                       <!-- this is the first row of content -->
+            <!-- <div> -->
+                                       <!-- first row left column content here -->
+                <!-- <h2>Forces of nature</h2>
+                <p>Enjoy nature.</p>
+            </div>
+            <div> -->
+                                       <!-- first row right column content here -->
+                <!-- <img src="" alt="r">
+            </div>
+            </div>
+        </section> -->
+
+       
+        <section class="forecast">
+            <h2>High Temperature Forecast</h2>
+            <table>
+         <thead>
+             <tr>
+             <th>Day</th>
+             <th>Wed</th>
+             <th>Thu</th>
+             <th>Fri</th>
+             <th>Sat</th>
+             <th>Sun</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+             <th>Forecast</th>
+             <td>89&deg;F</td>
+             <td>87&deg;F</td>
+             <td>78&deg;F</td>
+             <td>75&deg;F</td>
+             <td>72&deg;F</td>
+            </tr>
+         </tbody>
+         </table>
+        </section>
+        
+       
+    </main>
+    <article>
+        <header>
+            <h2>Founders Day News Article</h2>
+        </header>
+        <footer>
+            <p class="article"> News Article By. Luke Skye</p>
+        </footer>
+       
+
+        <p id="color">
+            <img src="images/family.jpeg" alt="Family looking at scenery" id="family">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+        </p>
+    </article>
+    <aside>
+
+    </aside>
+
     
-    <section class="forecast">
-        <h3>High Temperature Forecast</h3>
-        <table>
-     <thead>
-         <tr>
-         <th>Day</th>
-         <th>Wed</th>
-         <th>Thu</th>
-         <th>Fri</th>
-         <th>Sat</th>
-         <th>Sun</th>
-        </tr>
-     </thead>
-     <tbody>
-        <tr>
-         <th>Forecast</th>
-         <td>89&deg;F</td>
-         <td>87&deg;F</td>
-         <td>78&deg;F</td>
-         <td>75&deg;F</td>
-         <td>72&deg;F</td>
-        </tr>
-     </tbody>
-     </table>
-    </section>
+    <!-- Footer will be on the bottom -->
+    <footer class="footnote">
+        <img src="images/map.jpg" alt="Map of Preston Idaho" id="map">
+        <img src="images/nightcamp.jpeg" alt="Camping" id="camp">
+           The Weather Forecast <br>
+           84 West 2nd East. Preston ID <br>
+           867.530.990 <br>
+           weatheradventurewarriors@gmail.com <br>
+           Edwin E. Escobar <br>
+           <script src="js/currentdate.js">
+           </script>
 
- </main>
- <footer>
-
- </footer>
+    </footer>
 </body>
 
 </html>
