@@ -20,12 +20,13 @@
 }
 
 .overlay {
-    position: absolute;
-    width: 50px;
-    right: 50px;
+    position:absolute;
+    width: 300px;
+    right: 20%;
     background-color: white;
     height: 50px;
-    top: 50px;
+    top: 90%;
+    
 }
 
 #image2{
