@@ -1,16 +1,29 @@
-/* image{
-    width: 400px;
-    height: 500px;
-  } */
+#fullwidth{
+    width: 100%;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: 12px solid black;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
 
+#image {
+    position: relative;
+    width: 500px;
+}
 
-  /* #image2{
-    max-height: 150px;
-    max-width: 200px;
-    width: 120px;
-    height: 120px;
-  }
+#image img {
+    width: 500px;
+}
 
-  .img{
-
-  } */
+.overlay {
+    position: absolute;
+    width: 50px;
+    right: 50px;
+    background-color: white;
+    height: 50px;
+    top: 50px;
+}
