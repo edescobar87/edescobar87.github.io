@@ -29,21 +29,22 @@
 }
 
 #image2{
-
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px;
     width: 500px;
 }
 
-#image2 img {
+ img {
+  grid-row: 1/-1;
+  grid-column: 1/-1;
   width: 500px;
+  z-index: 6;
 
 }
 
 .overlay2 {
-    position: absolute;
-    width: 50px;
-    right: 50px;
-    background-color: white;
-    height: 50px;
-    top: 50px;
+   grid-column: 2;
+   grid-row: 2;
+   z-index: 12;
 }
