@@ -166,6 +166,13 @@ header > img {
     padding: 0.1px;
 }
 
+
+/* Weather Details */
+
+.weatherdetails{
+    padding-left: 10px;
+}
+
 /* Footer tags*/
 
 footer {
