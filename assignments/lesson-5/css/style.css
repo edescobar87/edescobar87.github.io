@@ -140,6 +140,13 @@ header > img {
 }
 
 
+/* Top header pancakes banner */
+
+.pancakes{
+    background-color: darkgreen;
+}
+
+
 .subheading {
     font-size: 1.1rem;
     color:#2E4600;
