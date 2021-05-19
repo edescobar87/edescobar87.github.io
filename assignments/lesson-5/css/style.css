@@ -77,7 +77,7 @@ article{
     max-width: 900px;
     margin-top: .5em;
     margin-bottom: .5em;
-    margin-left: 15em;
+    margin-left: 30em;
     display: block;
     padding: 1em;
 }
@@ -202,7 +202,7 @@ footer {
     max-width: 900px;
     margin-top: .5em;
     margin-bottom: .5em;
-    margin-left: 14em;
+    margin-left: 28.5em;
     display: block;
     background-color: #2E4600;
     /* text-align: center;
@@ -289,6 +289,9 @@ footer {
     .forecast{
         display: block;
         background-color: slategray;
+        margin-top: .5em;
+        margin-left: 35em;
+        margin-right: 22em;
         grid-row: 2/4;
         grid-column: 1/4;
         display: grid;
