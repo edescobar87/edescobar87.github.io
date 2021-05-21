@@ -171,8 +171,8 @@ header > img {
 /* Weather Summary */
 .weathersummary{
     position:absolute;
-    top: 470px;
-    left: 500px;
+    top: 60%;
+    left: 26%;
     width: 20%;
     height: 20%;
     color: white;
@@ -203,16 +203,16 @@ footer {
   }
 
   .footnote {
-    /* display: inline-block; */
-    display: grid;
+    display: inline-block;
+    /* display: grid;
     grid-template-columns: repeat(2, auto);
-    max-width: 900px;
+    max-width: 100%;
     margin-top: .5em;
     margin-bottom: .5em;
     margin-left: 28.5em;
     display: block;
-    background-color: #2E4600;
-    /* text-align: center;
+    background-color: #2E4600; */
+    /* text-align: center; */
     background-color: #2E4600;
     color: white;
     margin: 1.25rem;
@@ -220,7 +220,7 @@ footer {
     max-width: 100%;
     max-height: 50em;
     line-height: 1.6;
-    font-size: 13px; */
+    font-size: 13px;
   }
 
   /*  Bottom Info */
@@ -262,8 +262,8 @@ footer {
 
   #family {
     float: right;
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 35%;
     
   }
 
@@ -286,6 +286,7 @@ footer {
 
 
   /* Forecast Temps */
+
     /* section.forecast:nth-child(4){
         grid-row: 2/4;
         grid-column: 1/4;
@@ -306,10 +307,56 @@ footer {
         
     }
 
+    table{
+        margin: 0 auto;
+        width: 150%;
+        height: 100%;
+        margin-bottom: 1.5em;
+        border: 1px solid #003034;
+        border-collapse: collapse;
+        color: #003034;
+        display: table;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+        border-color: maroon;
+    }
+
+    tr{
+        text-align: center;
+        font-size: initial;
+        background-color: sandybrown;
+        display: table-row;
+        vertical-align: initial;
+        border-color: rgba(0, 87, 25, .75);
+    }
+
+    th{
+        border: 1px solid #003034;
+        border-collapse: collapse;
+        color: #003034;
+        display: table-cell;
+        vertical-align: inherit;
+        font-weight: bold;
+        text-align: -internal-center;
+    }
+
+
+
   /* Header Tags */
 
   h2{
       color: #2E4600;
+  }
+
+  h5{
+      grid-column: 1/4;
+      text-align: center;
+      font-size: 2em;
+      line-height: 1em;
+      color: #2E4600;
+      display: block;
+     
   }
 
   /*  Banner Preston Idaho Tag */
@@ -343,6 +390,8 @@ footer {
     text-align: center;
     text-emphasis-color: #7D4427;
   }
+
+
 
 
   /* Paragraph Tags*/
