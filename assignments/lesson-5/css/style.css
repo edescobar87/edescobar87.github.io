@@ -103,6 +103,8 @@ article:nth-child(3) {
         #navigation li:first-child{
             display: none;
         }
+
+      
     }
     
 
@@ -112,6 +114,8 @@ article:nth-child(3) {
             width: 800px;
             margin: 16px auto;
         }
+
+       
     }
     
 /* Header tags*/ 
@@ -296,14 +300,16 @@ footer {
 
     .forecast{
         display: block;
-        background-color: slategray;
+        display: grid;
+        /* background-color: slategray; */
         margin-top: .5em;
-        margin-left: 35em;
-        margin-right: 22em;
+        margin-left: 50em;
+        margin-right: 10em;
         grid-row: 2/4;
         grid-column: 1/4;
-        display: grid;
         grid-template-columns: repeat(6, auto);
+        font-size: 1.1em;
+        line-height: 2.8em;
         
     }
 
@@ -332,6 +338,7 @@ footer {
     }
 
     th{
+        background-color: #90AFC5;
         border: 1px solid #003034;
         border-collapse: collapse;
         color: #003034;
@@ -339,6 +346,16 @@ footer {
         vertical-align: inherit;
         font-weight: bold;
         text-align: -internal-center;
+    }
+
+    td{
+        padding-left: .2em;
+        padding-right: .2em;
+        border: 1px solid #003034;
+        border-collapse: collapse;
+        color: #003034;
+        display: table-cell;
+        vertical-align: inherit;
     }
 
 
@@ -350,8 +367,9 @@ footer {
   }
 
   h5{
+      margin-left: 4em;
       grid-column: 1/4;
-      text-align: center;
+      text-align:center;
       font-size: 2em;
       line-height: 1em;
       color: #2E4600;
