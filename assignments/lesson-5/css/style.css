@@ -147,7 +147,7 @@ header > img {
 /* Top header pancakes banner */
 
 .pancakes{
-    background-color: darkgreen;
+    background-color: #c7a71b;
 }
 
 
@@ -175,7 +175,7 @@ header > img {
 /* Weather Summary */
 .weathersummary{
     position:absolute;
-    top: 60%;
+    top: 69%;
     left: 26%;
     width: 20%;
     height: 20%;
