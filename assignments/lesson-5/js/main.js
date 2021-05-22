@@ -7,7 +7,7 @@ window.addEventListener('load', ()=> {
     // window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 });
 
-// if its friday it will hopefull display ananouncement about pancakes in the park//
+// if its friday it will hopefull display ananouncement about pancakes in the park oh baby I hope this owrks if not then.... that sucks//
 const pancakes = document.querySelector('#pancakes');
 if (currentDate.getDay() == 5) {
     pancakes.style.display = 'block';
