@@ -331,7 +331,7 @@ footer {
     tr{
         text-align: center;
         font-size: initial;
-        background-color: sandybrown;
+        background-color:rgba(23, 114, 63, 0.829);
         display: table-row;
         vertical-align: initial;
         border-color: rgba(0, 87, 25, .75);
@@ -356,6 +356,13 @@ footer {
         color: #003034;
         display: table-cell;
         vertical-align: inherit;
+    }
+
+
+    .cast{
+        width: 75px;
+        display: block;
+        margin: 0 auto;
     }
 
 
