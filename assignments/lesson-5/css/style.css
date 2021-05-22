@@ -152,9 +152,11 @@ header > img {
 
 
 .subheading {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
     color:#2E4600;
     font-style: italic; 
+
 }
 
 .currentconditions {
@@ -303,7 +305,7 @@ footer {
         display: grid;
         /* background-color: slategray; */
         margin-top: .5em;
-        margin-left: 50em;
+        margin-left: 40em;
         margin-right: 10em;
         grid-row: 2/4;
         grid-column: 1/4;
@@ -374,7 +376,8 @@ footer {
   }
 
   h5{
-      margin-left: 4em;
+      
+      margin-left: 8em;
       grid-column: 1/4;
       text-align:center;
       font-size: 2em;
