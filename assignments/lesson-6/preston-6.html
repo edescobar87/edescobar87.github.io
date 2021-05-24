@@ -14,7 +14,9 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
+    <!--JavaScript Sheets-->
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </head>
 
 
@@ -59,7 +61,8 @@
         </ul>
     </nav>
 
-       <!-- banner image will go here -->
+       
+       <!--The weather summary box info-->
        <div class="land">
         <section class="weathersummary">
             <h2>Weather Summary</h2>
@@ -68,7 +71,7 @@
               <!-- <p class="value">Sunny</p> -->
               <p class="label">High: 76 &deg;F</p>
               <!-- <p class="value">76 &deg;F</p> -->
-              <p class="label">Wind Chill: 51 &deg;F</p>
+              <p class="label">Wind Chill: <span id="windChillValue"></span> &deg;F</p>
               <!-- <p class="value">69%</p> -->
               <p class="label">Humidity: 95%</p>
               <!-- <p class="value">0 inches</p> -->
@@ -80,6 +83,7 @@
         <img src="images/land.jpg" alt="Land Scape" class="landscape">
         
     </div>
+       
 
     <main>
           
