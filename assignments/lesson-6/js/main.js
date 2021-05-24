@@ -8,12 +8,12 @@ window.addEventListener('load', ()=> {
 });
 
 // if its friday it will hopefull display ananouncement about pancakes in the park oh baby I hope this owrks if not then.... that sucks//
-// const pancake = document.querySelector('pancakes');
+// const pday = document.querySelector('pday');
 // if (currentDate.getDay() == 5) {
-//     pancake.style.display = 'block';
+//     pday.style.display = 'block';
 // }
 // else {
-//     pancakes.style.display = 'none';
+//     pday.style.display = 'none';
 // }
 
 // const pancake = document.getElementById('pancakes');
@@ -25,6 +25,8 @@ window.addEventListener('load', ()=> {
 //         pancake.style.display = "none";
 //     }
 
+
+const pday = document.querySelector('pday');
 if (dayWeek !== 5) {
     pday.style.display = "none";
   } else {
