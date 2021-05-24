@@ -16,13 +16,18 @@ window.addEventListener('load', ()=> {
 //     pancakes.style.display = 'none';
 // }
 
-const pancake = document.getElementById('pancakes');
-    if (d.getDay() == 5) { //5 is Friday
+// const pancake = document.getElementById('pancakes');
+//     if (d.getDay() == 5) { //5 is Friday
         
-        pancake.style.display = "block";
-    }
-    else {
-        pancake.style.display = "none";
-    }
+//         pancake.style.display = "block";
+//     }
+//     else {
+//         pancake.style.display = "none";
+//     }
 
+if (dayWeek !== 5) {
+    pday.style.display = "none";
+  } else {
+    pday.style.display = "flex";
+  }
 
