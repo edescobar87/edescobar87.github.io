@@ -11,8 +11,8 @@
 //     }
 
 
-var temp= 50;
-var wSpeed= 3;
+var temp= 54;
+var wSpeed= 12;
 var windChillValue= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 
 var windChillValue= Math.round(windChillValue);
