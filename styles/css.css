@@ -19,7 +19,7 @@ main{
 
 main article {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 4px solid #bbb;
 	padding: 0 1rem;
 	
 }
@@ -29,14 +29,15 @@ article:nth-child(3) {
 }
 
 .fav {
-    color: red;
+    color:rgb(208, 219, 53);
     font-weight: bold;
   }
 
   ul#vaca li {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 25px;
     color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
 
 
@@ -45,6 +46,13 @@ article:nth-child(3) {
     margin-left: auto;
     margin-right: auto;
     width: 38%;
+    text-align: center;
     
  }
+
+ p {
+     font-size: 20px;
+ }
+
+ 
 
