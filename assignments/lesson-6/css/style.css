@@ -105,7 +105,7 @@ article:nth-child(3) {
         }
 
       
-    }
+    
     
 
     /* Large View  */
@@ -116,7 +116,7 @@ article:nth-child(3) {
         }
 
        
-    }
+    
     
 /* Header tags*/ 
 header {
@@ -457,5 +457,5 @@ footer {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
   
-  
-  
+}
+}
