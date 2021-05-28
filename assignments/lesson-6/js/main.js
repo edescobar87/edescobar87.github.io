@@ -25,11 +25,22 @@ window.addEventListener('load', ()=> {
 //         pancake.style.display = "none";
 //     }
 
+let currentDate = new Date();
 
-const pday = document.querySelector('pday');
-if (dayWeek !== 5) {
-    pday.style.display = "none";
-  } else {
-    pday.style.display = "flex";
-  }
+const pday = document.querySelector('#pday');
+if (currentDate.getDay() == 5) {
+  pday.style.display = 'block';
+}
+else {
+  pday.style.display = 'none';
+}
+
+
+
+
+// if (dayWeek !== 5) {
+//     pday.style.display = "none";
+//   } else {
+//     pday.style.display = "flex";
+//   }
 

@@ -114,6 +114,8 @@ article:nth-child(3) {
             padding-right: 3em;
         }
 
+       
+
     }
       
     
@@ -130,6 +132,19 @@ article:nth-child(3) {
             padding-left: 3em;
             padding-right: 3em;
         }
+
+        /* Another option for responsive for the main content */
+
+        /* .grid-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            font-size: 1em;
+            max-width: 900px;
+            margin: 0 auto;
+        } */
+
+        
+    
 
     }
        
@@ -163,7 +178,7 @@ header > img {
 
 /* Top header pancakes banner */
 
-.pday{
+#pday{
     background-color: #c7a71b;
 }
 
