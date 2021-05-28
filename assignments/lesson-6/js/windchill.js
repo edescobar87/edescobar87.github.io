@@ -17,3 +17,4 @@ var windChillValue= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + 
 
 var windChillValue= Math.round(windChillValue);
 document.getElementById("windChillValue").innerHTML= windChillValue;
+
