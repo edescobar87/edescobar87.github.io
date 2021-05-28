@@ -8,22 +8,6 @@ window.addEventListener('load', ()=> {
 });
 
 // if its friday it will hopefull display ananouncement about pancakes in the park oh baby I hope this owrks if not then.... that sucks//
-// const pday = document.querySelector('pday');
-// if (currentDate.getDay() == 5) {
-//     pday.style.display = 'block';
-// }
-// else {
-//     pday.style.display = 'none';
-// }
-
-// const pancake = document.getElementById('pancakes');
-//     if (d.getDay() == 5) { //5 is Friday
-        
-//         pancake.style.display = "block";
-//     }
-//     else {
-//         pancake.style.display = "none";
-//     }
 
 let currentDate = new Date();
 
