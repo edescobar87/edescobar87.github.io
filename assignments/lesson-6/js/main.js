@@ -38,9 +38,4 @@ else {
 
 
 
-// if (dayWeek !== 5) {
-//     pday.style.display = "none";
-//   } else {
-//     pday.style.display = "flex";
-//   }
 
