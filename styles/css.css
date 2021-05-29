@@ -47,24 +47,32 @@ section:nth-child(3) {
     grid-column: span 2;
 }
 
+
+/* CSS-Specificity Examples  */
+
+
+/* .fav {
+    color: darkgoldenrod;
+} */
+
 .fav {
     color:rgb(208, 219, 53);
     font-weight: bold;
   }
 
-  /* .fav {
+  .fav {
       color: darkgoldenrod;
-  } */
+  }
 
-  ul#vaca li {
-    font-weight: normal;
-    font-size: 25px;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+  /* ul#vaca li.fav {
+    font-weight: bold;
+    
+    color: rgb(208, 219, 53);;
+    font-family: 'able', ;
+ }  */
 
 
-  /* body div#wrap ul#vaca li.fav {
+   /* body div#wrap ul#vaca li.fav {
     color: rgba(230, 96, 6, 0.89);
     font-weight: bold;
   } */
@@ -74,14 +82,18 @@ section:nth-child(3) {
   /* Using the (!important declaration)  */
   /* .fav {
       background-color: darkgoldenrod;
+      color:cornflowerblue;
   }
 
   #mountain {
       background-color: dodgerblue;
+      color:darkslateblue ;
   }
 
   li {
+      
       background-color: firebrick !important;
+      color:rgb(68, 196, 157)  ;
   } */
 
 
