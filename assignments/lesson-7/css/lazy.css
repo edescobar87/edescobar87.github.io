@@ -1,0 +1,122 @@
+.grid-container {
+    background-color: #505160;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-areas: 'a' 'b' 'c' 'd' 'e' 'f';
+}
+
+.grid-container div {
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media only screen and (min-width: 37.5em){
+    .grid-container{
+        grid-template-areas: 'a b' 'c d' 'e f';
+    }
+}
+
+@media only screeen and (min-width: 64em) {
+    .grid-container {
+        grid-template-areas: 'a b c' 'd e f';
+    }
+}
+
+
+
+/* Lesson 7 pictures */
+
+.mid {
+    transition: .4s ease;
+    position: relative;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -48%);
+    text-align: center;
+}
+.img1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7wvSrvFn49XAlQGcJkDDpHm371a20O6rt8xAOirh-548ahlxi");
+    grid-area: a;
+    transition: .4s ease;
+}
+
+.img2 {
+    background-image: url("http://for91days.com/photos/Idaho/Twin%20Falls/Snake-River-Idaho-Falls.jpg");
+    grid-area: b;
+    transition: .4s ease;
+}
+
+.img3 {
+  background-image: url("https://render.fineartamerica.com/images/rendered/default/poster/8.000/4.750/break/images/artworkimages/medium/1/lower-mesa-falls-panoramic-leland-d-howard.jpg");
+  grid-area: c;
+  transition: .4s ease;
+}
+
+.img4 {
+  background-image: url("https://images.fineartamerica.com/images-medium-large/rain-in-the-mountains-fernando-alvarez.jpg");
+  grid-area: d;
+  transition: .4s ease;
+}
+
+.img5 {
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/trib.com/content/tncms/assets/v3/editorial/5/6b/56b567f5-ae49-5eae-abcc-9d7de8a20df0/54e7c43a7f4a1.image.jpg");
+  grid-area: e;
+  transition: .4s ease;
+}
+
+.img6 {
+  background-image: url("https://i.pinimg.com/originals/24/50/3a/24503aed4bc0e4c7775a1306eaf73526.jpg");
+  grid-area: f;
+  transition: .4s ease;
+}
+
+.img1 :hover .mid {
+    opacity: .5;
+}
+
+.img1 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img2 :hover .mid {
+    opacity: .5;
+}
+
+.img2 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img3 :hover .mid {
+    opacity: .5;
+}
+
+.img3 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img4 :hover .mid {
+    opacity: .5;
+}
+
+.img4 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img5 :hover .mid {
+    opacity: .5;
+}
+
+.img5 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img6 :hover .mid {
+    opacity: .5;
+}
+
+.img6 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
