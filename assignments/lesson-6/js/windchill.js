@@ -79,4 +79,8 @@ if (highTempValue <= 50 && windChillValue > 3) {
 //     // wc = 'Feels like' '+wc+' '&deg;F';
 //     feelTemp.innerHTML = wc;
 //     return wc;
+<<<<<<< HEAD
 // }
+=======
+// }
+>>>>>>> 4d074ee3c46b8ec5cb5c4a583fa9dd1c7214b293
