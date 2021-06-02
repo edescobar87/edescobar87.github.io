@@ -1,0 +1,7 @@
+@media only screen and (min-width: 35em ) {
+
+   
+
+    section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
+
+  }

@@ -51,9 +51,9 @@ section:nth-child(3) {
 /* CSS-Specificity Examples  */
 
 
-/* .fav {
+ /* .fav {
     color: darkgoldenrod;
-} */
+}  */
 
 .fav {
     color:rgb(208, 219, 53);
@@ -62,25 +62,24 @@ section:nth-child(3) {
 
   .fav {
       color: darkgoldenrod;
-  }
+  } 
 
-  /* ul#vaca li.fav {
-    font-weight: bold;
-    
-    color: rgb(208, 219, 53);;
-    font-family: 'able', ;
- }  */
+   ul#vaca li.fav {
+    font-weight:normal;
+    color: rgb(53, 139, 219);;
+    font-size: 25px ;
+ } 
 
 
-   /* body div#wrap ul#vaca li.fav {
+   body div#wrap ul#vaca li.fav {
     color: rgba(230, 96, 6, 0.89);
     font-weight: bold;
-  } */
+  }
 
 
 
   /* Using the (!important declaration)  */
-  /* .fav {
+  .fav {
       background-color: darkgoldenrod;
       color:cornflowerblue;
   }
@@ -93,8 +92,8 @@ section:nth-child(3) {
   li {
       
       background-color: firebrick !important;
-      color:rgb(68, 196, 157)  ;
-  } */
+      color:rgb(68, 196, 157) !important ;
+  }
 
 
  article#center {

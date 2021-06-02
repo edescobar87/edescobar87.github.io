@@ -1,0 +1,307 @@
+html {-webkit-text-size-adjust:  100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header,
+nav,
+main,
+footer {
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: ______;
+    /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+    background-color:#90AFC5;
+    text-align:center;
+    padding: .5rem;
+    color: white;
+}
+
+header > img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+.headertext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headertext h1 {
+    font-size: 3rem;
+
+}
+
+.subheading {
+    font-size: 1.1rem;
+    color:#2E4600;
+    font-style: italic; 
+}
+
+
+nav {
+  background-color: #505160;
+  font-family: sans-serif;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #FB6542; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flow-root;
+    background-color: #505160;
+    text-align: center;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+nav ul li.active a {
+    background-color: #7D4427; 
+    color: #fff;
+  }
+
+nav ul li a:hover {
+  background-color: #FB6542;
+  color: #333;
+}
+nav ul.hide {display: none;}
+
+nav ul li:first-child a {border-left: none;}
+
+
+nav ul li {
+    display: inline;
+    margin: 1rem;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    border: 1px solid #90AFC5;
+}
+
+.main-table {
+  padding: 0 2%;
+  min-height: auto;
+}
+
+main h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.maincontent img {
+    margin: 0 0 0 2%;
+    width: 50%;
+}
+
+.maincontent img {width: 100%;}
+
+footer {
+  background-color: #7D4427;
+  padding: .5rem 2%;
+  text-align: center;
+}
+
+section.forecast {
+    display: none;
+}
+
+
+.article {
+  text-align: center;
+  background-color: #FB6542;
+  height: 20px;
+  color: black;
+  padding: 0;
+}
+
+#family {
+  float: right;
+  width: 50%;
+  height: auto;
+}
+
+#map {
+  width: 26%;
+  height: auto;
+  float: right;
+}
+
+#camp {
+  width: 39%;
+  height: auto;
+  float: left;
+}
+
+.footnote {
+  display: inline-block;
+  text-align: center;
+  background-color: #505160;
+  color: white;
+  margin: 1.25rem;
+  padding: .5rem;
+  max-width: 100%;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-container {
+    background-color: #505160;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-areas: 'a' 'b' 'c' 'd' 'e' 'f';
+}
+
+.grid-container div {
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media only screen and (min-width: 37.5em){
+    .grid-container{
+        grid-template-areas: 'a b' 'c d' 'e f';
+    }
+}
+
+@media only screeen and (min-width: 64em) {
+    .grid-container {
+        grid-template-areas: 'a b c' 'd e f';
+    }
+}
+
+.text {
+  background-color: #90AFC5;
+  color: black;
+  font-size: 16px;
+  padding: 200px;
+}
+
+.mid {
+    transition: .4s ease;
+    position: relative;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -48%);
+    text-align: center;
+}
+.img1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7wvSrvFn49XAlQGcJkDDpHm371a20O6rt8xAOirh-548ahlxi");
+    grid-area: a;
+    transition: .4s ease;
+}
+
+.img2 {
+    background-image: url("http://for91days.com/photos/Idaho/Twin%20Falls/Snake-River-Idaho-Falls.jpg");
+    grid-area: b;
+    transition: .4s ease;
+}
+
+.img3 {
+  background-image: url("https://render.fineartamerica.com/images/rendered/default/poster/8.000/4.750/break/images/artworkimages/medium/1/lower-mesa-falls-panoramic-leland-d-howard.jpg");
+  grid-area: c;
+  transition: .4s ease;
+}
+
+.img4 {
+  background-image: url("https://images.fineartamerica.com/images-medium-large/rain-in-the-mountains-fernando-alvarez.jpg");
+  grid-area: d;
+  transition: .4s ease;
+}
+
+.img5 {
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/trib.com/content/tncms/assets/v3/editorial/5/6b/56b567f5-ae49-5eae-abcc-9d7de8a20df0/54e7c43a7f4a1.image.jpg");
+  grid-area: e;
+  transition: .4s ease;
+}
+
+.img6 {
+  background-image: url("https://i.pinimg.com/originals/24/50/3a/24503aed4bc0e4c7775a1306eaf73526.jpg");
+  grid-area: f;
+  transition: .4s ease;
+}
+
+.img1 :hover .mid {
+    opacity: .5;
+}
+
+.img1 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img2 :hover .mid {
+    opacity: .5;
+}
+
+.img2 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img3 :hover .mid {
+    opacity: .5;
+}
+
+.img3 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img4 :hover .mid {
+    opacity: .5;
+}
+
+.img4 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img5 :hover .mid {
+    opacity: .5;
+}
+
+.img5 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}
+
+.img6 :hover .mid {
+    opacity: .5;
+}
+
+.img6 :hover {
+    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
+}

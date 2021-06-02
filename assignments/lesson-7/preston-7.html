@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 
 <html lang="en-us">
@@ -7,14 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Weather Site | Town of Preston | Weather Conditions and Forecast</title>
     <meta name="description" content=" Weather Site that gives you Current Conditions">
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link href="styles/normalize.css" rel="stylesheet">
-    <link href="styles/large-5.css" rel="stylesheet">
-    <link href="styles/small-5.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/medium-5.css" rel="stylesheet">
-    <script src="script/scripts.js"></script>
-    <script src="script/windchill.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> -->
+    <!--CSS/JS Style Sheet-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/normalize.css">
+    <link href="css/style.css" rel="stylesheet">
+    <!--JavaScript Sheets-->
+    
     
     
 </head>
@@ -22,113 +23,152 @@
 
 <body>
     <header>
-        <img src="images/sunmixsnow.png" alt="logo" 
-        srcset="images/sunmixsnow.png 1x, images/sunmixsnow.png 2x, images/sunmixsnow.png 3x">
+        <!-- <div id="pancakes"> -->
+            <div id="pday">
+        <h1>Saturday = Preston Pancakes in the Park! 9:00 a.m. 
+            <br>
+            Saturday at the city park.</h1>
+        </div>
+    </header>
+    <!-- header will be here -->
+    <header>
+        <img src="images/icon.png" alt="Mountain Logo"> 
         <div class="headertext">
             <h1>Weather Adventure Warriors</h1>
-        <div class="subheading">Think Twice Before Walking On Ice</div>
+        <div class="subheading">Weather or not</div>
         </div>
         <div class="currentconditions">
             <img src="images/sunny.png" alt="Current Condition weather icon">
             <p>Sunny</p>
         </div>
-           
+            <ul>
+                <li></li>
+                
+            </ul>   
     </header>
-
-     <nav class="clearfix">
-         <button onclick="toggleMenu()">&#9776;</button>
-         <ul id="main-table" class="hide">
-        <li> <a href="#">Menu</a> </li>
-        <li> <a href="https://edescobar87.github.io/">Home</a> </li>
-        <li class="active"> <a href="https://edescobar87.github.io/assignments/lesson-5.html">Preston</a> </li>
-        <li> <a href="#">Soda Springs</a> </li>
-        <li> <a href="#">Fish Haven</a> </li>
-        <li> <a href="#">Storm Center</a> </li>
-        <li> <a href="#">Gallery</a> </li>
+ <!-- navigation will go here -->
+    <nav>
+        <ul id="navigation">
+            
+                <li><a class="ham" href="#">&#9776</a></li>
+                <li><a class="#" href="https://edescobar87.github.io/assignments/lesson-3/index.html">Home</a></li>
+                <li><a class="#" href="#">About</a></li>
+                <li><a class="active" href="https://edescobar87.github.io/assignments/lesson-6/preston-6.html">Preston</a></li>
+                <li><a href="https://edescobar87.github.io/assignments/lesson-3/target-audience.html">Soda Springs</a></li>
+                <li><a href="https://edescobar87.github.io/assignments/lesson-3/typography.html">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            
         </ul>
     </nav>
 
+       
+       <!--The weather summary box info-->
+       <div class="land">
+        <section class="weathersummary">
+            <h2>Weather Summary</h2>
+            <div class="weatherdetails">
+              <p class="label">Currently:Sunny</p>
+              <!-- <p class="value">Sunny</p> -->
+              <p class="label">High: 54 &deg;F</p>
+              <!-- <p class="value">76 &deg;F</p> -->
+              <p class="label">Wind Chill: <span id="windChillValue"></span> &deg;F</p>
+              <!-- <p class="value">69%</p> -->
+              <p class="label">Humidity: 95%</p>
+              <!-- <p class="value">0 inches</p> -->
+              <p class="label">Wind Speed: 12 mph</p>
+              <!-- <p class="value">5 mph</p> -->
+            </div>
+            <script src="js/windchill.js"></script>
+          </section>
+        <h2>Preston Idaho</h2>
+        <!-- <img src="images/land.jpeg" alt="Land Scape" class="landscape"> -->
+        <img src="images/franksm.jpg" alt="Small Image" sizes="50vw" 
+             srcset="images/franksm.jpg 500w,
+                    images/frankmd.jpg 800w,
+                     images/franklg.jpg 1100w,"      
+                     class="landscape">
+        
+    </div>
+       
+
     <main>
-    <div class="maincontent">
-            <h2>The Town of Preston</h2>
+
+        <h5>Daily Temperature Forecast</h5>
+        <section class="forecast">
             
-            <img src="images/town.jpeg" alt="Town of Preston" class="town">
-            
-            <section class="weathersummary">
-              <h2>Weather Summary</h2>
-              <div class="weatherdetails">
-                <p class="label">Currently:</p>
-                <p class="value">Sunny</p>
-                <p class="label">Temperature:</p>
-                <p class="value">76 &deg;F</p>
-                <p class="label">Humidity:</p>
-                <p class="value">69%</p>
-                <p class="label">Precipitation:</p>
-                <p class="value">0 inches</p>
-                <p class="label">Wind Speed:</p>
-                <p class="value">5 mph</p>
-              </div>
-            </section>
-          </div>
-    
-    <section class="forecast">
-        <h2>High Temperature Forecast</h2>
-        <table>
-     <thead>
-         <tr>
-         <th>Day</th>
-         <th>Wed</th>
-         <th>Thu</th>
-         <th>Fri</th>
-         <th>Sat</th>
-         <th>Sun</th>
-        </tr>
-     </thead>
-     <tbody>
-        <tr>
-         <th>Forecast</th>
-         <td>89&deg;F</td>
-         <td>87&deg;F</td>
-         <td>78&deg;F</td>
-         <td>75&deg;F</td>
-         <td>72&deg;F</td>
-        </tr>
-     </tbody>
-     </table>
-    </section>
+            <table>
+         <!-- <thead> -->
+             <tr>
+             <!-- <th>Day</th> -->
+             <th>Wed</th>
+             <th>Thu</th>
+             <th>Fri</th>
+             <th>Sat</th>
+             <th>Sun</th>
+            </tr>
+         <!-- </thead> -->
+         <tbody>
+            <tr>
+             <!-- <th>Forecast</th> -->
+             <td><img alt="weather picture" class="cast" src="images/partsun.png"> 89&deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/partsun.png">87&deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/cloudy.png">78&deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/partsun.png">75&deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/rain.png">62&deg;F</td>
+            </tr>
+         </tbody>
+         </table>
+        </section>
+        
+       
+    </main>
     <article>
         <header>
-            <h2>Founders Day News Article</h2>
+             <a href="https://www.fs.usda.gov/recarea/ctnf/recreation/camping-cabins/recarea/?recid=53671&actid=29"><h2>Take a chance and camp at Albert Moser Campground</h2></a>
         </header>
         <footer>
-            <p class="article"> News Article By. Luke Skye</p>
+            <p class="article"> USDA Forest Service</p>
         </footer>
-        <img src="images/family.jpeg" alt="Family looking at scenery" id="family">
+       
 
-        <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.   
-        </p>
+        
+            <img src="images/family.jpeg" alt="Family looking at scenery" id="family">
+                <p id="color">Albert Moser Campground is situated on the banks of the Cub River about nine miles from Preston, Idaho. Built by the Civilian Conservation Corps in the late 1930s, the campground is just off Cub River Road, at an elevation of 6,000 feet. Visitors enjoy trout fishing in the river and exploring local trails.</p>
+                <p id="color">Natural Features: The banks of the gentle Cub River are lined with dense stands of cottonwood trees, which offer pleasant shade in the summer and bright autumn color.</p>
+                <p id="color">Recreation: The Cub River provides excellent trout fishing. Anglers enjoy fly-fishing for wild cutthroat and hatchery rainbows.</p>
+                <p id="color">Numerous hiking, biking, horse and off-road vehicle trails crisscross the Cub River area, offering great opportunities to get out and see the beautiful surroundings.</p>
+                <p id="color">Facilities: The campground contains six single-family and three double-family sites, all with picnic tables and campfire rings. Some sites also have grills. Vault toilets and drinking water are provided. Roads and parking spurs throughout the campground are dirt. A host is located five miles up Cub River Road at Willow Flat Campground.</p>
+                <p id="color">Open after season, First Come/First Served; No fee, No Toilets, No Water</p>
+        
     </article>
 
- </main>
- <aside>
 
- </aside>
- <footer class="footnote">
-     <img src="images/map.jpg" alt="Map of Preston Idaho" id="map">
-     <img src="images/nightcamp.jpeg" alt="Camping" id="camp">
-        The Weather Forecast <br>
-        84 West 2nd East. Preston ID <br>
-        867.530.990 <br>
-        weatheradventurewarriors@gmail.com <br>
-        Edwin E. Escobar <br>
-        <script src="script/currentdate.js">
-        </script>
- </footer>
- 
+    <!-- <aside>
+
+    </aside> -->
+
+    
+    <!-- Footer will be on the bottom -->
+    <footer class="footnote">
+        <img src="images/map.jpg" alt="Map of Preston Idaho" id="map">
+        <img src="images/nightcamp.jpeg" alt="Camping" id="camp">
+           <div class="info">
+           <p>The Weather Forecast </p>
+           <p>84 West 2nd East. Preston ID</p>
+           <p>867.530.990 </p>
+           <p>weatheradventurewarriors@gmail.com </p>
+           <p>Edwin E. Escobar </p>
+           
+           </div>
+           <script src="js/currentdate.js">
+           </script>
+           
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
