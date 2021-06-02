@@ -10,6 +10,11 @@
 //     document.getElementById("windChillValue").innerHTML = getWindChillValue;
 //     }
 
+var highTempValue = parseInt(document.querySelector('#highTempValue'));
+var windSpeedValue = parseInt(document.querySelector('#windSpeedValue'));
+var windChillValue = parseInt(document.querySelector('#windChillValue'));
+
+
 
 var temp= 54.1;
 var wSpeed= 12;
