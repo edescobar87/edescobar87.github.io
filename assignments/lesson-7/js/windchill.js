@@ -12,23 +12,31 @@
 
 var highTempValue = parseInt(document.querySelector('#highTempValue'));
 var windSpeedValue = parseInt(document.querySelector('#windSpeedValue'));
-var windChillValue = parseInt(document.querySelector('#windChillValue'));
-
-
-
-var temp= 54.1;
-var wSpeed= 12;
-var windChillValue= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
-
-var windChillValue= Math.round(windChillValue);
-document.getElementById("windChillValue").innerHTML= windChillValue;
+var windChillValue = document.querySelector('#windChillValue');
+var windChillCalc = 0;
 
 if (highTempValue <= 50 && windChillValue > 3) {
     windChillValue = 35.74 + + (0.6215 * highTempValue) - (35.75 * (windChillValue ** 0.16)) + (0.4275 * highTempValue * (windChillValue * 0.16));
-    document.querySelector('#windChillValue').innerHTML = windChillValue;
+    console.log(windChillCalc);
+    windChillValue.innerHTML = windChillCalc;
 } else {
-    document.querySelector('#windChillValue').innerHTML = 'N/A';
+   windChillValue.innerHTML = 'N/A';
 }
+
+
+// var temp= 54.1;
+// var wSpeed= 12;
+// var windChillValue= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
+
+// var windChillValue= Math.round(windChillValue);
+// document.getElementById("windChillValue").innerHTML= windChillValue;
+
+// if (highTempValue <= 50 && windChillValue > 3) {
+//     windChillValue = 35.74 + + (0.6215 * highTempValue) - (35.75 * (windChillValue ** 0.16)) + (0.4275 * highTempValue * (windChillValue * 0.16));
+//     document.querySelector('#windChillValue').innerHTML = windChillValue;
+// } else {
+//     document.querySelector('#windChillValue').innerHTML = 'N/A';
+// }
 
 
 
