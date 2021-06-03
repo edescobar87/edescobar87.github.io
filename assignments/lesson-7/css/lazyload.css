@@ -1,0 +1,14 @@
+img {
+    border: 5px solid rgb(8, 133, 122);
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+}
+body {
+    margin-bottom: 500px;
+    align-content: center;
+
+}
+
+
+
