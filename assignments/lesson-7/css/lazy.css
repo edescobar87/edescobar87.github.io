@@ -1,4 +1,4 @@
-.grid-container {
+/* .grid-container {
     background-color: #505160;
     display: grid;
     grid-gap: 10px;
@@ -10,126 +10,118 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+} */
+
+
+#gallpage h1{
+    padding: 15px 0px 15px 5%;
+    margin: 0px;
+    font-size: 25px;
 }
 
-@media only screen and (min-width: 37.5em){
-    .grid-container{
-        grid-template-areas: 'a b' 'c d' 'e f';
-    }
+.grid-container {
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+    grid-gap: 20px;
 }
+
+.gallshadow {
+    background-color: darkslategray;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.info {
+    display: none;
+}
+
+@media only screen and (min-width: 47.5em){
+    /* #gallpage {
+        padding-left: 4%;
+    }
+
+    h1 {
+        text-align: left;
+        color: darkcyan;
+        font-size: 55px;
+    }
+
+    .grid-container {
+        grid-template-columns: 50% 50%;
+    } */
+}
+
+
+/*Lesson 7 Gallery style*/
 
 @media only screeen and (min-width: 64em) {
-    .grid-container {
-        grid-template-areas: 'a b c' 'd e f';
+    /* #gallpage {
+        padding-left: 4%;
     }
+
+    h1{
+        text-align: left;
+        color: darkcyan;
+        font-size: 55px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, 30%);
+    }
+
+    .gall-shadow:hover{
+        box-shadow: 0 0 18 #888888;
+    }
+
+    .cardinfo {
+        display: block;
+        padding: 7px 9px;
+        font-style: oblique;
+    } */
 }
 
-
-
-/* Lesson 7 pictures */
-
-.mid {
-    transition: .4s ease;
-    position: relative;
-    opacity: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-48%, -48%);
-    text-align: center;
-}
-.img1 {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7wvSrvFn49XAlQGcJkDDpHm371a20O6rt8xAOirh-548ahlxi");
-    grid-area: a;
-    transition: .4s ease;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px 18px #888888;
+#gallpage {
+    padding-left: 4%;
 }
 
-.img2 {
-    background-image: url("http://for91days.com/photos/Idaho/Twin%20Falls/Snake-River-Idaho-Falls.jpg");
-    grid-area: b;
-    transition: .4s ease;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px 18px #888888;
-}
-
-.img3 {
-  background-image: url("https://render.fineartamerica.com/images/rendered/default/poster/8.000/4.750/break/images/artworkimages/medium/1/lower-mesa-falls-panoramic-leland-d-howard.jpg");
-  grid-area: c;
-  transition: .4s ease;
-}
-
-.img4 {
-  background-image: url("https://images.fineartamerica.com/images-medium-large/rain-in-the-mountains-fernando-alvarez.jpg");
-  grid-area: d;
-  transition: .4s ease;
-}
-
-.img5 {
-  background-image: url("https://bloximages.chicago2.vip.townnews.com/trib.com/content/tncms/assets/v3/editorial/5/6b/56b567f5-ae49-5eae-abcc-9d7de8a20df0/54e7c43a7f4a1.image.jpg");
-  grid-area: e;
-  transition: .4s ease;
-}
-
-.img6 {
-  background-image: url("https://i.pinimg.com/originals/24/50/3a/24503aed4bc0e4c7775a1306eaf73526.jpg");
-  grid-area: f;
-  transition: .4s ease;
-}
-
-.img1 :hover .mid {
-    opacity: .5;
-}
-
-.img1 :hover {
-    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
-}
-
-.img2 :hover .mid {
-    opacity: .5;
-}
-
-.img2 :hover {
-    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
-}
-
-.img3 :hover .mid {
-    opacity: .5;
-}
-
-.img3 :hover {
-    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
-}
-
-.img4 :hover .mid {
-    opacity: .5;
-}
-
-.img4 :hover {
-    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
-}
-
-.img5 :hover .mid {
-    opacity: .5;
-}
-
-.img5 :hover {
-    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
-}
-
-.img6 :hover .mid {
-    opacity: .5;
-}
-
-.img6 :hover {
-    box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.8);
-}
-
-
-.gal{
+h1 {
     text-align: left;
     color: darkcyan;
     font-size: 55px;
 }
+
+.grid-container {
+    grid-template-columns: 50% 50%;
+}
+
+
+#gallpage {
+    padding-left: 4%;
+}
+
+h1{
+    text-align: left;
+    color: darkcyan;
+    font-size: 55px;
+}
+
+.grid-container {
+    grid-template-columns: repeat(3, 30%);
+}
+
+.gall-shadow:hover{
+    box-shadow: 0 0 18 #888888;
+}
+
+.cardinfo {
+    display: block;
+    padding: 7px 9px;
+    font-style: oblique;
+}
+
+
+
+
