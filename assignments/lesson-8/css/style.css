@@ -525,27 +525,42 @@ footer {
   /*-------- FORM --------*/
 
 form fieldset {
+    
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 3px solid #445ba9;
     border-radius: 10px;
     padding: .5rem 2%;
+    color: #fffbfb;
 }
 
-form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #fdfdfd;
-    font-size: .8rem;
-}
-
-form label.top input, form label.top select {
+#top{
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: rgb(3, 3, 3);
+    width: 100%;
+    max-width: 4020rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #fffbfb;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    /* -webkit-appearance: none; */
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: rgb(3, 3, 3);
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
@@ -555,7 +570,7 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: rgb(245, 244, 244);
 }
 
 form input.submitBtn {
