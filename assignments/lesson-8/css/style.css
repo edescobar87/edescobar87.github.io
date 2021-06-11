@@ -494,6 +494,10 @@ footer {
       font-size: 30px;
   }
 
+  #comment{
+      font-size: 50px;
+  }
+
  
 
   h5{
@@ -622,10 +626,22 @@ form label.top input:required:valid {
 /**************
 THANK YOU COMMENTS
 ***************/
+
 #para {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+    text-align:left;
+    line-height: 1em;
+    
 }
+
+
+
+
+
 
 
   /* Paragraph Tags*/
