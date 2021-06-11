@@ -496,6 +496,7 @@ footer {
 
   #comment{
       font-size: 50px;
+      text-align: center;
   }
 
  
@@ -630,16 +631,28 @@ THANK YOU COMMENTS
 #para {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-left: 20px;
-    margin-right: 25px;
+    margin-right: 25px; */
     text-align:left;
     line-height: 1em;
+    margin: 0 auto;
     
 }
 
+#thnks-sect {
+    text-align: center;
+}
 
 
+#thnks-sect p{
+    width: 900px; 
+    margin: 0 auto;
+    padding-bottom: 1em;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1em;
+}
 
 
 
