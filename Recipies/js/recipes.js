@@ -19,8 +19,23 @@ function newRecipe(){
         my_recipe = rec['meals'][0];
         let card = document.createElement("section");
 
+        let ul = document.createElement("ul");
+
+        for(let i=1;i<=20;i++){
+            tmp = my_recipe['strIngredient'+i];
+            let li = document.createElement("li");
+            let text = document.createTextNode(tmp);
+            li.appendChild(text);
+            ul.appendChild(li);
+
+        }
+
         card.innerHTML = `<h2>${my_recipe.strMeal}</h2>
+        <img src="${my_recipe.strMealThumb}" alt="${my_recipe.strMeal}">
+        <p>${my_recipe.strInstructions}</P>
+
         `;
+        card.appendChild(ul);
         recipe_id.appendChild(card);
     });
 }
