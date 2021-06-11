@@ -55,16 +55,13 @@ body {
 
     /* Site Purpose */
 
-  /* main {
+  main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+    
 	font-size: 0.8rem;
-} */
-
-#para{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
 }
+
 
  
 
@@ -618,6 +615,16 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
     
+}
+
+
+
+/**************
+THANK YOU COMMENTS
+***************/
+#para {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 
