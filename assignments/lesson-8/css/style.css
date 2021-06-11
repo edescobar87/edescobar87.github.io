@@ -55,12 +55,16 @@ body {
 
     /* Site Purpose */
 
-  main {
+  /* main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	font-size: 0.8rem;
-}
+} */
 
+#para{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
 
  
 
@@ -493,6 +497,8 @@ footer {
       font-size: 30px;
   }
 
+ 
+
   h5{
       
       margin-left: 8em;
@@ -619,8 +625,13 @@ form label.top input:required:valid {
 
   p {
     color: ivory;
-    font-size: large;
+    font-size: 1.1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
 }
 
 
