@@ -61,6 +61,14 @@ body {
 	font-size: 0.8rem;
 }
 
+main .town {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 10px;
+    max-width: 100%;
+}
  
 
 /* main article {

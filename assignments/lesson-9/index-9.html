@@ -9,9 +9,10 @@
     <meta name="description" content=" Weather Site that gives you Current Conditions">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link href="style/normalize.css" rel="stylesheet">
-    <link href="style/large-5.css" rel="stylesheet">
-    <link href="style/small-5.css" rel="stylesheet">
-    <script src="script/scripts.js"></script>
+    <!-- <link href="style/large-5.css" rel="stylesheet"> -->
+    <!-- <link href="style/small-5.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
     
     
     
@@ -20,34 +21,47 @@
 
 <body>
     <header>
-        <img src="images/sunmixsnow.png" alt="logo" 
-        srcset="images/sunmixsnow.png 1x, images/sunmixsnow.png 2x, images/sunmixsnow.png 3x">
+        <!-- <div id="pancakes"> -->
+            <div id="pday">
+        <h1>Saturday = Preston Pancakes in the Park! 9:00 a.m. 
+            <br>
+            Saturday at the city park.</h1>
+        </div>
+    </header>
+    <!-- header will be here -->
+    <header>
+        <img src="images/icon.png" alt="Mountain Logo"> 
         <div class="headertext">
             <h1>Weather Adventure Warriors</h1>
-        <div class="subheading">Think Twice Before Walking On Ice</div>
+        <div class="subheading">Weather or not</div>
         </div>
         <div class="currentconditions">
             <img src="images/sunny.png" alt="Current Condition weather icon">
             <p>Sunny</p>
         </div>
-           
+            <ul>
+                <li></li>
+                
+            </ul>   
     </header>
-
-     <nav class="clearfix">
-         <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
-         <ul id="main-table" class="hide">
-        <li><a href="https://edescobar87.github.io/">Menu</a></li>
-        <li><a href="index-9.html">Home</a></li>
-        <li class="active"><a href="https://edescobar87.github.io/assignments/lesson-5.html">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="stormcenter.html">Storm Center</a></li>
-        <li><a href="gallery-7.html">Gallery</a></li>
+ <!-- navigation will go here -->
+    <nav>
+        <ul id="navigation">
+            
+                <li><a class="ham" href="#">&#9776</a></li>
+                <li><a class="#" href="https://edescobar87.github.io/assignments/lesson-3/index.html">Home</a></li>
+                <li><a class="#" href="#">About</a></li>
+                <li><a class="active" href="https://edescobar87.github.io/assignments/lesson-7/preston-7.html">Preston</a></li>
+                <li><a class=""    href="">Soda Springs</a></li>
+                <li><a class="#"   href="">Fish Haven</a></li>
+                <li><a class="#"   href="#">Storm Center</a></li>
+                <li><a class="#"   href="https://edescobar87.github.io/assignments/lesson-7/gallery-7">Gallery</a></li>
+            
         </ul>
     </nav>
    
     <main class="whole">
-        <div class="view">
+        <!-- <div class="view">
             <picture>
                 <source media="(min-width: 1000px)" srcset="images/view.jpeg">
                     <img src="images/view.jpeg">
@@ -58,13 +72,18 @@
                 <p class="motto">Think Twice Before Walking On Ice</p>
         </div>
         </div>
-        </div>
-       <section class="town">
+        </div> -->
+       <!-- <section class="town">
            
-       </section>
+       </section> -->
     
 
     </main>
+
+    <section class="town">
+           
+    </section>
+    
 
  
     <footer class="footnote">
@@ -75,14 +94,14 @@
            867.530.990 <br>
            weatheradventurewarriors@gmail.com <br>
            Edwin E. Escobar <br>
-           <script src="script/currentdate.js"></script>
+           <script src="js/currentdate.js"></script>
     </footer>
    
      
  
  
- <script src="script/towndata.js"></script>
- <script src="script/api.js"></script>
+ <script src="js/towndata.js"></script>
+ <script src="js/api.js"></script>
 
 
 </body>
