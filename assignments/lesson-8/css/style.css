@@ -204,7 +204,6 @@ article:nth-child(3) {
             font-style: oblique;
         }
 
-        
     
 
     }
@@ -217,6 +216,7 @@ header {
     text-align:center;
     padding: .5rem;
     color: white;
+    max-width: 100%;
 
 }
 
@@ -330,6 +330,25 @@ footer {
       display: block;
       
   }
+
+  
+        /*************
+        SOCIAL MEDIA
+        **************/
+        .media{
+            display: block;
+            grid-column: 2/3;
+            margin-top: 10px;
+            }
+
+        .media img{
+            width: 32px;
+            padding: 5px;
+            margin-left: 15px;
+            
+            
+        }
+            
 
   .article {
     /* text-align: center;
