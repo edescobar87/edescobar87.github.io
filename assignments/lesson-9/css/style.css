@@ -473,6 +473,19 @@ footer {
     }
 
 
+    /**************
+    LESSON 9 HOME PAGE
+    **************/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    
+    
+    
+   
+
 
   /* Header Tags */
 
