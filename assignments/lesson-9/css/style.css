@@ -63,8 +63,8 @@ body {
 
 main .town {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     text-align: center;
     grid-gap: 10px;
     max-width: 100%;
@@ -476,9 +476,16 @@ footer {
     /**************
     LESSON 9 HOME PAGE
     **************/
-    .cards {
+     .towns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article {
+        background-color: rgb(18, 93, 112);
+        margin: 12px;
+        max-width: 100%;
+        padding: 12px;
     }
     
     

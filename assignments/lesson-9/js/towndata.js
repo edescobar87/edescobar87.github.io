@@ -69,7 +69,7 @@ request.onload = function () {
 
     for (var i = 0; i < towns.length; i++) {
 
-        if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') {
+        if (towns[i].name == 'Preston' || towns[i].name == 'Fish Haven' || towns[i].name == 'Soda Springs') {
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
             var myPara1 = document.createElement('p');
@@ -80,7 +80,7 @@ request.onload = function () {
             var myList = document.createElement('ul');
 
             myH2.textContent = towns[i].name;
-            myPara1.textContent = 'Motto :' + towns[i].motto;
+            myPara1.textContent =  towns[i].motto;
             myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
             myPara3.textContent = 'Current Population: ' + towns[i].currentPopulation;
             myPara4.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
@@ -88,7 +88,7 @@ request.onload = function () {
 
             var townevents = towns[i].events;
             for (var j = 0; j < townevents.length; j++) {
-                var listItem = document.createElement('li');
+                var listItem = document.createElement('ul');
                 listItem.textContent = townevents[j];
                 myList.appendChild(listItem);
             }
