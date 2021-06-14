@@ -1,0 +1,37 @@
+main {
+    background-color: #55565A;
+    display: grid;
+}
+
+.table {
+    background-color: #004d71;
+    width: 70%;
+    margin: 0 auto;
+    border: solid;
+    display: table-row-group;
+}
+
+tr th {
+    background-color: #89abbc;
+    color: #55565a;
+}
+tr td, tr th{
+    padding: 5px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #dd5f13;
+    color: white;
+  }
+  tr:nth-child(odd) {
+    background-color: #007481;
+    color: white;
+  }
+
+  #logo {
+      width: 200px;
+      display: block;
+      margin: auto auto;
+      padding: 15px;
+  }
+
