@@ -4,7 +4,7 @@ body {
 
 main {
     background-color: darkgoldenrod;
-    max-width: 1200px;
+    max-width: 1400px;
     grid-template-columns: 1fr ;
     margin: auto auto;
 }
@@ -51,12 +51,22 @@ footer {
     }
 
     img {
-        max-width: 250px;
+        max-width: 300px;
     }
 }
 
 @media only screen and (min-width: 56em){
     .cards {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    header {
+        max-width: 50%;
+        margin-left: 500px;
+        background-color: darkkhaki;
+    }
+
+    h1 {
+        box-shadow: 5px 10px 5px rgba(90, 60, 60, 0.533);
     }
 }
