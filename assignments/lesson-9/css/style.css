@@ -212,7 +212,7 @@ article:nth-child(3) {
             font-style: oblique;
         }
 
-        
+         
     
 
     }
@@ -476,16 +476,29 @@ footer {
     /**************
     LESSON 9 HOME PAGE
     **************/
-     .towns {
+     /* .towns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }
+    } */
 
     article {
-        background-color: rgb(18, 93, 112);
-        margin: 12px;
+        background-color: rgb(156, 109, 21);
+        /* margin: 12px; */
+        max-width: 150%;
+        min-height: 5%;
+        padding: 12px; 
+        /* padding: 2px; */
+        border: gray solid 2px;
+        border-radius: 10px;
+        margin: 20px;
+        text-align: center;
+        
+    }
+
+    #cities section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         max-width: 100%;
-        padding: 12px;
     }
     
     
