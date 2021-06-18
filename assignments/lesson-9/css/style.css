@@ -61,7 +61,7 @@ body {
 	font-size: 0.8rem;
 }
 
-main .town {
+main .cities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr; */
@@ -316,6 +316,44 @@ hr {
             grid-template-columns: 50% 50%;
            
         } */
+
+        /***********************
+     LESSON 9 MAIN HOME PAGE
+    ***********************/
+
+    article {
+        background-color: rgb(156, 109, 21);
+        /* display: block; */
+        
+        flex-direction: row;
+        max-width: fit-content;
+        /* min-height: 5%; */
+        padding: 12px; 
+        /* padding: 2px; */
+        border: gray solid 2px;
+        border-radius: 10px;
+        margin: 10px;
+        
+        
+    }
+
+
+    article ul {
+        font-size: 100%;
+        text-align:left;
+    }
+
+      main #cities  {
+        display: grid;
+        
+        grid-template-columns: repeat(3, 40%) ;
+        /* grid-template-rows: 1fr; */
+
+        max-width: 1000px;
+        gap: 1em;
+        display: block;
+       
+    } 
 
         
 
@@ -593,43 +631,7 @@ footer {
 
 
 
-    /***********************
-     LESSON 9 MAIN HOME PAGE
-    ***********************/
-
-    article {
-        background-color: rgb(156, 109, 21);
-        /* display: block; */
-        
-        flex-direction: row;
-        max-width: fit-content;
-        /* min-height: 5%; */
-        padding: 12px; 
-        /* padding: 2px; */
-        border: gray solid 2px;
-        border-radius: 10px;
-        margin: 10px;
-        
-        
-    }
-
-
-    article ul {
-        font-size: 100%;
-        text-align:left;
-    }
-
-      main #cities  {
-        display: grid;
-        
-        grid-template-columns: repeat(3, 40%) ;
-        /* grid-template-rows: 1fr; */
-
-        max-width: 1000px;
-        gap: 1em;
-        display: block;
-       
-    } 
+    
 
     /* main.wrap-page {
         display: grid;
