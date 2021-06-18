@@ -133,6 +133,8 @@ article:nth-child(3) {
 LESSON 9 SMALL VIEW HOME PAGE
 ************************************/
 
+
+
 /* div.wrap-page {
     display: grid;
     grid-template-columns: 1fr;
@@ -221,6 +223,7 @@ hr {
         LESSON 9 HOME PAGE
         ***********************/
 
+       
         /* div.towns {
             display: flex;
             flex-direction: row;
@@ -576,6 +579,8 @@ footer {
     article {
         background-color: rgb(156, 109, 21);
         /* display: block; */
+        
+        flex-direction: row;
         max-width: fit-content;
         /* min-height: 5%; */
         padding: 12px; 
@@ -593,10 +598,13 @@ footer {
         text-align:left;
     }
 
-     main #cities  {
+      main #cities  {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr;
         max-width: 1000px;
+        gap: 1em;
         display: block;
        
     } 
