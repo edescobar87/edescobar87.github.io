@@ -37,10 +37,10 @@ request.onload = function () {
                 myList.appendChild(listItem);
             }
 
-        //     let image = document.createElement('img');
-        // image.setAttribute('src', images[i].preston.jpg);
-        // image.setAttribute('alt', h2 + i);
-        // card.appendChild(image);
+         let image = document.createElement('img');
+         image.setAttribute('src', 'images/' + towns[i]["photo"]);
+        //  image.setAttribute('alt', h2 + i);
+        
 
             var section = document.querySelector('#cities');
 
@@ -51,6 +51,7 @@ request.onload = function () {
             myArticle.appendChild(myPara4);
             myArticle.appendChild(myPara5);
             myArticle.appendChild(myList);
+            myArticle.appendChild(image);
 
             section.appendChild(myArticle);
         }
