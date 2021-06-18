@@ -21,6 +21,7 @@ request.onload = function () {
             var myPara4 = document.createElement('p');
             var myPara5 = document.createElement('p');
             var myList = document.createElement('ul');
+            
 
             myH2.textContent = towns[i].name;
             myPara1.textContent =  towns[i].motto;
