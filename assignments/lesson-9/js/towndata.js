@@ -36,6 +36,11 @@ request.onload = function () {
                 myList.appendChild(listItem);
             }
 
+        //     let image = document.createElement('img');
+        // image.setAttribute('src', images[i].preston.jpg);
+        // image.setAttribute('alt', h2 + i);
+        // card.appendChild(image);
+
             var section = document.querySelector('#cities');
 
             myArticle.appendChild(myH2);
