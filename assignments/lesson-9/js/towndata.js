@@ -36,7 +36,7 @@ request.onload = function () {
                 myList.appendChild(listItem);
             }
 
-            var section = document.querySelector('section');
+            var section = document.querySelector('#cities');
 
             myArticle.appendChild(myH2);
             myArticle.appendChild(myPara1);

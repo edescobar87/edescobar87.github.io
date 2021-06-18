@@ -127,6 +127,56 @@ article:nth-child(3) {
     display: none;
 }
 
+
+
+/************************************
+LESSON 9 SMALL VIEW HOME PAGE
+************************************/
+
+/* div.wrap-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2em;
+}
+
+div.towns {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+.towns img {
+    max-width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff8f2bd;
+    margin: 1em auto;
+    padding: 5px;
+    display: block;
+}
+
+.towns h3, .towns h5 {
+    text-align: center;
+}
+
+.towns h5 {
+    font-style: italic;
+    font-weight: 500;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: .1em;
+    margin-right: .1em;
+    border-width: 2px;
+    border-style: solid;
+} */
+
     /* medium view*/
     @media only screen and (min-width: 47.5em){
         nav {
@@ -167,6 +217,39 @@ article:nth-child(3) {
             grid-template-columns: 50% 50%;
         }
 
+        /**********************
+        LESSON 9 HOME PAGE
+        ***********************/
+
+        /* div.towns {
+            display: flex;
+            flex-direction: row;
+            margin: 1em;
+        }
+    
+        div.towns:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+    
+        div.towns div:nth-child(odd) {
+            padding: .5em;
+            min-width: 13em;
+        }
+    
+        div.towns div:nth-child(even) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: .5em;
+        }
+    
+        .towns img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+        } */
+
        
 
     }
@@ -181,7 +264,7 @@ article:nth-child(3) {
             margin: 16px auto;
         }
         main {
-            max-width: 900px;
+            max-width: 1000px;
             padding-left: 3em;
             padding-right: 3em;
         }
@@ -213,7 +296,9 @@ article:nth-child(3) {
         }
 
          
-    
+       
+
+
 
     }
        
@@ -481,26 +566,90 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
     } */
 
+
+
+
+    /***********************
+     LESSON 9 MAIN HOME PAGE
+    ***********************/
+
     article {
         background-color: rgb(156, 109, 21);
-        /* margin: 12px; */
-        max-width: 150%;
-        min-height: 5%;
+        /* display: block; */
+        max-width: fit-content;
+        /* min-height: 5%; */
         padding: 12px; 
         /* padding: 2px; */
         border: gray solid 2px;
         border-radius: 10px;
-        margin: 20px;
-        text-align: center;
+        margin: 10px;
+        
         
     }
 
-    #cities section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        max-width: 100%;
+
+    article ul {
+        font-size: 100%;
+        text-align:left;
     }
-    
+
+     main #cities  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1000px;
+        display: block;
+       
+    } 
+
+
+
+
+    /* .towns {
+        background-color: darkgoldenrod;
+    }
+    div.towns {
+        display: block;
+    }
+
+    div.towns div:nth-child(odd) {
+        min-width: 0;
+    }
+
+    div.town-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+        max-width: 1000px;
+    }
+
+    div.towns {
+        max-width: fit-content;
+    } */
+
+   
+
+    /**************
+    HOME PAGE IMAGES
+    ***************/
+    #sodaimg {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #fishimg {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #prestonimg {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
     
     
     
