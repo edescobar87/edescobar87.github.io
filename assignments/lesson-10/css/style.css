@@ -1,0 +1,788 @@
+/* samll/phone view */
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body {
+    background-color: #505160;
+    }
+    
+    nav{
+        margin: 0 auto;
+        max-width: 360px;
+        background-color: #12aaeb;
+    
+    }
+    
+    #navigation {
+        list-style: none;
+        padding: 0;
+        grid-template-columns: auto;
+        display: grid;
+    
+    }
+    
+    #navigation li:first-child {
+        display: block;
+    }
+    
+    #navigation li {
+        display: none;
+    }
+    
+    #navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    
+    }
+    
+    #navigation a:hover, #navigation a.active:hover {
+        color: white;
+        background-color: black;
+    
+    }
+    
+    #navigation a.active{
+        background-color: rgba(0,0,0,.55);
+        color: white;
+        /* border-bottom: 5px, solid black; */
+    }
+    
+    #navigation.responsive li{
+    display: block;
+    }
+
+    /* Site Purpose */
+
+  main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 0.8rem;
+}
+
+main .cities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    text-align: center;
+    grid-gap: 10px;
+    max-width: 100%;
+}
+ 
+
+/* main article {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #FB6542;
+} */
+
+article{
+    background-color:#90AFC5;
+    /* margin-top: .5em;
+    margin-bottom: .5em;
+    padding: 1em; */
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 80%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 10em;
+    display: block;
+    padding: 1em;
+}
+
+article:nth-child(3) {
+    grid-column: span 2;
+    
+}
+
+/* Lesson 7 Gallery page */
+#gallpage h1{
+    padding: 15px 0px 15px 5%;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.gallshadow {
+    background-color: rgb(250, 255, 255);
+}
+
+.img {
+    max-width: 100%;
+}
+
+
+
+.info {
+    display: none;
+}
+
+
+
+/************************************
+LESSON 9 SMALL VIEW HOME PAGE
+************************************/
+
+
+
+/* div.wrap-page {
+    display: grid;
+    grid-template-columns: repeat(3, 40%);
+    margin-top: 2em;
+} */
+
+/* div.towns {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+.towns img {
+    max-width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff8f2bd;
+    margin: 1em auto;
+    padding: 5px;
+    display: block;
+}
+
+.towns h3, .towns h5 {
+    text-align: center;
+}
+
+.towns h5 {
+    font-style:normal;
+    font-weight:bold;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: .1em;
+    margin-right: .1em;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.wrap-page {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    grid-gap: 20px;
+   
+} */
+
+    /* medium view*/
+    @media only screen and (min-width: 47.5em){
+        nav {
+            max-width: 100%;
+        }
+        #navigation {
+            grid-template-columns: repeat(7,auto);
+        }
+        #navigation li{
+            display: block; /*change state in small view*/
+        }
+        #navigation a {
+            text-align: center;
+        }
+        #navigation li:first-child{
+            display: none;
+        }
+
+        main {
+            max-width: 600px;
+            padding-left: 3em;
+            padding-right: 3em;
+        }
+
+        /* Lesson 7 Gallery page */
+
+        #gallpage {
+            padding-left: 4%;
+        }
+    
+        #galltext {
+            text-align: left;
+            color: darkcyan;
+            font-size: 55px;
+        }
+    
+        .grid-container {
+            grid-template-columns: 50% 50%;
+        }
+
+        /**********************
+        LESSON 9 HOME PAGE
+        ***********************/
+
+       
+        /* div.towns {
+            display: flex;
+            flex-direction: row;
+            margin: 1em;
+        }
+    
+        div.towns:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+    
+        div.towns div:nth-child(odd) {
+            padding: .5em;
+            min-width: 13em;
+        }
+    
+        div.towns div:nth-child(even) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: .5em;
+        }
+     */
+        /* .towns img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+        } */
+
+       
+       
+       
+
+    }
+    
+      
+    
+    
+
+    /* Large View  */
+    @media only screen and (min-width: 64em){
+        #navigation {
+            width: 900px;
+            margin: 16px auto;
+        }
+        main {
+            max-width: 1000px;
+            padding-left: 3em;
+            padding-right: 3em;
+        }
+
+        /* Lesson 7 Gallery page */
+
+        #gallpage {
+            padding-left: 4%;
+        }
+    
+        #galltext{
+            text-align: left;
+            color: darkcyan;
+            font-size: 55px;
+        }
+    
+        .grid-container {
+            grid-template-columns: repeat(3, 30%);
+        }
+    
+        .gall-shadow:hover{
+            box-shadow: 0 0 18px #181111;
+        }
+    
+        .cardinfo {
+            display: block;
+            padding: 7px 9px;
+            font-style: oblique;
+        }
+        
+
+        /* .wrap-page {
+            display: grid;
+            grid-template-columns: 50% 50%;
+           
+        } */
+
+        /***********************
+     LESSON 9 MAIN HOME PAGE
+    ***********************/
+
+    article {
+        background-color: rgb(156, 109, 21);
+        /* display: block; */
+        
+        flex-direction: row;
+        max-width: fit-content;
+        /* min-height: 5%; */
+        padding: 12px; 
+        /* padding: 2px; */
+        border: gray solid 2px;
+        border-radius: 10px;
+        margin: 10px;
+        
+        
+    }
+
+
+    article ul {
+        font-size: 100%;
+        text-align:left;
+    }
+
+      main #cities  {
+        display: grid;
+        
+        grid-template-columns: repeat(3, 40%) ;
+        /* grid-template-rows: 1fr; */
+
+        max-width: 1000px;
+        gap: 1em;
+        display: block;
+       
+    } 
+
+        
+
+         
+       
+
+
+
+    }
+       
+    
+    
+/* Header tags*/ 
+header {
+    background-color:#90AFC5;
+    text-align:center;
+    padding: .5rem;
+    color: white;
+
+}
+
+header > img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}   
+
+.headertext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headertext h1 {
+    font-size: 3rem;
+
+}
+
+
+/* Top header pancakes banner */
+
+#pday{
+    background-color: #c7a71b;
+}
+
+
+.subheading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#2E4600;
+    font-family: abel;
+    font-style: italic; 
+
+}
+
+.currentconditions {
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.2rem;
+    vertical-align: middle;
+    color: #fff;
+    background-color: rgba(0, 87, 25, .75);
+    border: 1pt solid rgba(0, 87, 25,1);
+    font-size: 1.1rem;
+}
+.currentconditions img {
+    width: 100px;
+    height: auto;
+}
+
+/* Weather Summary */
+.weathersummary{
+    position:absolute;
+    top: 64.5%;
+    left: 26%;
+    width: 15%;
+    height: 20%;
+    color: white;
+    line-height: 0.3;
+    background-color: #505160;
+    box-shadow: 0 0 30px #2E4600;
+    opacity: 0.8;
+    padding: 0.1px;
+}
+
+
+/* Weather Details */
+
+.weatherdetails{
+    padding-left: 10px;
+    text-align:justify;
+}
+
+
+
+/* Footer tags*/
+
+footer {
+    background-color: #7D4427;
+    padding: .5rem 2%;
+    margin-bottom: 1em;
+    text-align: center;
+   
+  }
+
+  .footnote {
+    display: inline-block;
+    /* display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 100%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 28.5em;
+    display: block;
+    background-color: #2E4600; */
+    text-align: center;
+    background-color: #2E4600;
+    color: white;
+    margin: 1.25rem;
+    padding: .5rem;
+    max-width: 100%;
+    max-height: 50em;
+    line-height: 1.6;
+    
+  }
+
+  /*  Bottom Info */
+    .info {
+      text-align: left;
+      display: block;
+      
+  }
+
+  .article {
+    /* text-align: center;
+    background-color: #FB6542;
+    height: 20px;
+    color: ivory;
+    padding: 0; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 900px;
+    margin-top: .5em;
+    display: block;
+    
+   
+  }
+  
+  
+
+  /* Bottom Images */
+
+  #map {
+    width: 26%;
+    height: auto;
+    float: right;
+  }
+  
+  #camp {
+    width: 38%;
+    height: 40%;
+    float: left;
+  }
+
+  #family {
+    float: right;
+    width: 50%;
+    height: 35%;
+    
+  }
+
+  /* Banner Image*/
+
+  /* .land{
+      max-width:  100%;   
+  } */
+
+
+  .landscape{
+      max-width: 100%;
+      max-height: 520px;
+      background-size: cover;
+      background-position: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+
+  }
+
+
+  /* Forecast Temps */
+
+    /* section.forecast:nth-child(4){
+        grid-row: 2/4;
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+    } */
+
+    .forecast{
+        display: block;
+        display: grid;
+        /* background-color: slategray; */
+        margin-top: .5em;
+        margin-left: 40em;
+        margin-right: 10em;
+        grid-row: 2/4;
+        grid-column: 1/4;
+        grid-template-columns: repeat(6, auto);
+        font-size: 1.1em;
+        line-height: 2.8em;
+        
+    }
+
+    table{
+        margin: 0 auto;
+        width: 150%;
+        height: 100%;
+        margin-bottom: 1.5em;
+        border: 1px solid #003034;
+        border-collapse: collapse;
+        color: #003034;
+        display: table;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+        border-color: maroon;
+    }
+
+    tr{
+        text-align: center;
+        font-size: initial;
+        background-color:rgba(23, 114, 63, 0.829);
+        display: table-row;
+        vertical-align: initial;
+        border-color: rgba(0, 87, 25, .75);
+    }
+
+    th{
+        background-color: #90AFC5;
+        border: 1px solid #003034;
+        border-collapse: collapse;
+        color: #003034;
+        display: table-cell;
+        vertical-align: inherit;
+        font-weight: bold;
+        text-align: -internal-center;
+    }
+
+    td{
+        padding-left: .2em;
+        padding-right: .2em;
+        border: 1px solid #003034;
+        border-collapse: collapse;
+        color: #003034;
+        display: table-cell;
+        vertical-align: inherit;
+    }
+
+
+    .cast{
+        width: 75px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    /**************
+    LESSON 9 HOME PAGE
+    **************/
+     /* .towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    } */
+
+
+
+
+    
+
+    /* main.wrap-page {
+        display: grid;
+        grid-template-columns: repeat(3, 40%);
+        margin-top: 2em;
+    } */
+
+
+
+
+    /* .towns {
+        background-color: darkgoldenrod;
+    }
+    div.towns {
+        display: block;
+    }
+
+    div.towns div:nth-child(odd) {
+        min-width: 0;
+    }
+
+    div.town-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+        max-width: 1000px;
+    }
+
+    div.towns {
+        max-width: fit-content;
+    } */
+
+   
+
+    /**************
+    HOME PAGE IMAGES
+    ***************/
+    /* #sodaimg {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #fishimg {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    } */
+
+    article img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    
+    
+   
+
+
+  /* Header Tags */
+
+  h2{
+      color: #2E4600;
+      font-size: 30px;
+  }
+
+  h5{
+      
+      margin-left: 8em;
+      grid-column: 1/4;
+      text-align:center;
+      font-size: 2em;
+      line-height: 1em;
+      color: #2E4600;
+      display: block;
+     
+  }
+
+  /*  Banner Preston Idaho Tag */
+  .land h2{
+      text-align: center;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: xx-large;
+  }
+
+  
+
+  h3 {
+      align-self: center;
+  }
+
+  .size {
+      font-size: xx-large;
+  }
+
+
+
+  li {
+      font-size: large;
+  }
+
+  main h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-emphasis-color: #7D4427;
+  }
+
+  .towns h2, .towns h5 {
+    text-align:center;
+}
+
+
+
+
+
+  /* Paragraph Tags*/
+
+  p {
+    color: ivory;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#color{
+    color: #505160;
+    font-family: abel;
+}
+
+.color {
+    text-align: center;
+}
+
+
+
+/* Font Styles */
+
+.fontstyle {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.secondstyle {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+
+
+
