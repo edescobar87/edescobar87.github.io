@@ -426,6 +426,7 @@ header > img {
 /* Weather Summary */
 .weathersummary{
     position:absolute;
+    position:-webkit-sticky;
     top: 64.5%;
     left: 26%;
     width: 15%;
@@ -444,6 +445,7 @@ header > img {
 .weatherdetails{
     padding-left: 10px;
     text-align:justify;
+    
 }
 
 
@@ -519,8 +521,8 @@ footer {
 
   #family {
     float: right;
-    width: 50%;
-    height: 35%;
+    width: 30%;
+    height: 40%;
     
   }
 
@@ -555,7 +557,7 @@ footer {
     .forecast{
         display: block;
         display: grid;
-        /* background-color: slategray; */
+        align-content: center;
         margin-top: .5em;
         margin-left: 40em;
         margin-right: 10em;
@@ -763,7 +765,7 @@ footer {
 
 
 #color{
-    color: #505160;
+    color: #2e2f3a;
     font-family: abel;
 }
 

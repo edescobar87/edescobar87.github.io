@@ -1,4 +1,5 @@
-fetch('https://api.openweathermap.org/data/2.5/weather?&id=5604473&units=imperial&APPID=c837d202aac77367d90725ec4b9c7ce2')
+ fetch('https://api.openweathermap.org/data/2.5/weather?&id=5604473&units=imperial&APPID=c837d202aac77367d90725ec4b9c7ce2')
+
     .then(function (response) {
         return response.json();
     })
@@ -21,3 +22,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?&id=5604473&units=imperia
         
 
     });
+
+
+       /*****************
+         CURRENT VERSION 
+         *****************/
+//    fetch('https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}')
