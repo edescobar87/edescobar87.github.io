@@ -12,7 +12,7 @@ request.onload = function () {
 
     for (var i = 0; i < towns.length; i++) {
 
-        if (towns[i].name == 'Preston' || towns[i].name == 'Fish Haven' || towns[i].name == 'Soda Springs') {
+        if (towns[i].name == 'Preston' || towns[i].name == '' || towns[i].name == '') {
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
             var myPara1 = document.createElement('p');

@@ -337,6 +337,12 @@ hr {
         
     }
 
+    #form {
+        max-width: 70%;
+        justify-content: center;
+        margin-left: 15%;
+    }
+
 
     article ul {
         font-size: 100%;
@@ -348,7 +354,7 @@ hr {
         
         grid-template-columns: repeat(3, 40%) ;
         /* grid-template-rows: 1fr; */
-
+        
         max-width: 1000px;
         gap: 1em;
         display: block;
