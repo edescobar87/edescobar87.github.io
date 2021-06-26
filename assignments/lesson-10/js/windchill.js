@@ -72,11 +72,11 @@ function weather() {
                     let temp = document.getElementById('temp' + dayNum);
                     temp.textContent = Math.round(weather.list[i].main.temp);
 
-                    let img = document.getElementById('img' + dayNum);
-                    img.setAttribute('src', 'http://openweathermap.org/img/wn/10d@2x.png')
-
                     // let img = document.getElementById('img' + dayNum);
-                    // img.setAttribute('src', 'https://openweathermap.org/img/wn/'+ weather.list[i].weather[0].icon +'@2x.png')
+                    // img.setAttribute('src', 'http://openweathermap.org/img/wn/10d@2x.png')
+
+                    let img = document.getElementById('img' + dayNum);
+                    img.setAttribute('src', 'https://openweathermap.org/img/wn/'+ weather.list[i].weather[0].icon +'@2x.png')
                     //https://openweathermap.org/img/wn/04d@2x.png
 
                     dayNum++;
