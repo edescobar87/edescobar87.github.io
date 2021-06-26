@@ -12,7 +12,7 @@ window.addEventListener('load', ()=> {
 let currentDate = new Date();
 
 const pday = document.querySelector('#pday');
-if (currentDate.getDay() == 5) {
+if (currentDate.getDay() == 6) {
   pday.style.display = 'block';
 }
 else {
