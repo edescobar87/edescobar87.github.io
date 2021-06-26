@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Weather Site | Town of Preston | Weather Conditions and Forecast</title>
+    <meta name="description" content=" Weather Site that gives you Current Conditions">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/large-5.css" rel="stylesheet">
+    <!-- <link href="css/small-5.css" rel="stylesheet">  -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+    
+    
+    
+</head>
+
+
+<body>
+    
+        <header>
+            <!-- <div id="pancakes"> -->
+                <div id="pday">
+            <h1>Saturday = Preston Pancakes in the Park! 9:00 a.m. 
+                <br>
+                Saturday at the city park.</h1>
+            </div>
+        </header>
+        <!-- header will be here -->
+        <header class="fit">
+            <img src="images/icon.png" alt="Mountain Logo"> 
+            <div class="headertext">
+                <h1>Weather Adventure Warriors</h1>
+            <div class="subheading">Weather or not</div>
+            </div>
+            <div class="currentconditions">
+                <img src="images/sunny.png" alt="Current Condition weather icon">
+                <p>Sunny</p>
+            </div>
+                <ul>
+                    <li></li>
+                    
+                </ul>   
+        </header>
+     <!-- navigation will go here -->
+        <nav>
+            <ul id="navigation">
+                
+                    <li><a class="ham" href="#">&#9776</a></li>
+                    <li><a class="#" href="https://edescobar87.github.io/assignments/lesson-3/index.html">Home</a></li>
+                    <li><a class="#" href="#">About</a></li>
+                    <li><a class="" href="https://edescobar87.github.io/assignments/lesson-7/preston-7.html">Preston</a></li>
+                    <li><a class=""    href="">Soda Springs</a></li>
+                    <li><a class="#"   href="">Fish Haven</a></li>
+                    <li><a class="active"   href="https://edescobar87.github.io/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+                    <li><a class="#"   href="https://edescobar87.github.io/assignments/lesson-7/gallery-7">Gallery</a></li>
+                
+            </ul>
+        </nav>
+    
+           
+           <!--The weather summary box info for weather-->
+           <div class="land">
+           
+            <h2>Preston Idaho</h2>
+            <!-- <img src="images/land.jpeg" alt="Land Scape" class="landscape"> -->
+            <img src="images/land.jpeg" alt="Small Image" sizes="50vw" 
+                 srcset="images/land.jpeg 500w,
+                         images/land.jpeg 800w,
+                         images/land.jpeg 1100w,"      
+                         class="landscape">
+            
+        </div>
+           
+    
+    
+    <main>
+        <h1>Storm Center</h1>
+        <form action="thanks.html">
+            <div class="form">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label id="top">First Name* <input type="text" name="fname" required></label>
+                    <label id="top">Last Name* <input type="text" name="lname" required></label>
+                    <label id="top">Phone <input type="tel" name="phone" placeholder="1234554321" required></label>
+                    <label id="top">Email <input type="tel" name="email" placeholder="someone@gmail.com" required></label>
+                    <label id="top">Zip Code<input type="text" name="zip" placeholder="enter zip" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm Date <input type="date" name="completedDate"></label>
+                    <label class="top">Storm type 
+                        <select name="type">
+                            <option value="=">Please Select Type &#9662;</option>
+                            <option value="Flash Flood">Flash Flood</option>
+                            <option value="Hail">Hail</option>
+                            <option value="Hurricane">Hurricane</option>
+                            <option value="Thunderstorm">Thunderstorm</option>
+                            <option value="Tornado">Tornado</option>
+
+                        </select>
+                    </label>
+
+                    
+                    <label class="top">Storm Rating (1 to 10)<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                        onchange="adjustRating(this.value)"></label>
+                        <span id="ratingvalue">5</span>
+                       <!-- <script src="js/stormrating.js"></script>         -->
+                        
+                    <label class="top">Storm Region 
+                        <select name="region">
+                            <option value="">Please Select Region &#9962;</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Sugar City">Sugar City</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                            <option value="Winder">Soda Springs</option>
+                            
+                        </select>
+                        </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <label class="top">Are you in Danger:</label>
+                    <div>Check Box</div>
+                    <label class="sbs"><input type="radio" name="dng" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="dng" value="maybe">Maybe</label>
+                    <label class="sbs"><input type="radio" name="dng" value="no">No</label>
+                </fieldset>
+
+                <fieldset>
+                        <label>Comments:</label><br>
+                        <textarea rows="6" placeholder="Additional comments here"></textarea> <br>
+                    </fieldset>
+    
+                    <input type="submit" value="Submit Report" class="submitBtn">
+                    
+
+
+
+            </div>
+        </form>
+    
+
+    </main>
+
+ 
+    <footer class="footnote">
+        <img src="images/map.jpg" alt="Map of Preston Idaho" id="map">
+        <img src="images/nightcamp.jpeg" alt="Camping" id="camp">
+           <div class="info">
+           <p>The Weather Forecast </p>
+           <p>84 West 2nd East. Preston ID</p>
+           <p>867.530.990 </p>
+           <p>weatheradventurewarriors@gmail.com </p>
+           <p>Edwin E. Escobar </p>
+           <div class="media">
+            <a href="#"><img src="images/facebook.png" alt="social link"></a>
+            <a href="#"><img src="images/instagram.png" alt="social link"></a>
+            <a href="#"><img src="images/twitter.png" alt="social link"></a>
+          </div>
+           </div>
+     <script src="js/currentdate.js"></script>
+ </footer>
+ 
+ <script src="js/main.js"></script>
+
+</body>
+
+</html>
