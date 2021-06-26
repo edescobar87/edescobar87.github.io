@@ -43,7 +43,9 @@ function weather() {
             windSpeedValue.textContent = Math.round(weather.wind.speed);
         });
 
-
+/***********************************************
+ FIVE DAY WEATHER DAY FORECAST SODA/PRESTON/FISH
+ ***********************************************/
 
 async function getWeatherForecast() {
     const url = "https://api.openweathermap.org/data/2.5/forecast?&id=5604473&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
