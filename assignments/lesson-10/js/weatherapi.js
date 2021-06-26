@@ -38,6 +38,7 @@
                     document.querySelector('#temp' + count).textContent = Math.round(element.main.temp_max) + " °F";
     
                     // set icon for each day
+                   
                     document.querySelector('#weatherimg' + count).setAttribute('src', "http://openweathermap.org/img/wn/" + element.weather[0].icon + ".png")
                     count = count + 1;
                 };
