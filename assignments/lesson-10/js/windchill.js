@@ -28,6 +28,8 @@ if (highTempValue <= 50 && windChillValue > 3) {
 }
 
 
+
+
 async function getWeather() {
     const url = "https://api.openweathermap.org/data/2.5/forecast?&id=5604473&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
 
