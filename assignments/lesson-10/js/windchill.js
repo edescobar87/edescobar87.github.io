@@ -26,25 +26,8 @@ if (highTempValue <= 50 && windChillValue > 3) {
         throw new Error("No weather available + " + response.status);
     }
 }
-
-
-
-
-async function getWeather() {
-    const url = "https://api.openweathermap.org/data/2.5/forecast?&id=5604473&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
-
-    const response = await fetch(url);
-
-    if (response.status == 200) {
-        return response.json();
-    } else {
-        throw new Error("No weather available + " + response.status);
-    }
-}
-
-
 function weather() {
-    const current = getDailyWeather()
+    const current = getWeather()
         .then(function (weather) {
             console.log(weather);
     
@@ -59,34 +42,66 @@ function weather() {
             humid.textContent = weather.main.humidity;
             windSpeedValue.textContent = Math.round(weather.wind.speed);
         });
-    const forecast = getForecastWeather()
-        .then(function (weather) {
-            console.log(weather);
 
-            var dayNum = 0;
-            for (let i = 0; i < weather.list.length; i++) {
-                let date = new Date(weather.list[i].dt_txt);
-                if (date.getHours() == 18) {
-                    let day = document.getElementById('day' + dayNum);
-                    var weekday = daysOfWeek(date);
-                    day.textContent = weekday[date.getDay()];
 
-                    let temp = document.getElementById('temp' + dayNum);
-                    temp.textContent = Math.round(weather.list[i].main.temp);
 
-                    // let img = document.getElementById('img' + dayNum);
-                    // img.setAttribute('src', 'http://openweathermap.org/img/wn/10d@2x.png')
+async function getWeatherForecast() {
+    const url = "https://api.openweathermap.org/data/2.5/forecast?&id=5604473&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
 
-                    let img = document.getElementById('img' + dayNum);
-                    img.setAttribute('src', 'https://openweathermap.org/img/wn/'+ weather.list[i].weather[0].icon +'@2x.png')
-                    //https://openweathermap.org/img/wn/04d@2x.png
+    const response = await fetch(url);
 
-                    dayNum++;
-                }
-                console.log(dayNum);
-            }
-        });
+    if (response.status == 200) {
+        return response.json();
+    } else {
+        throw new Error("No weather available + " + response.status);
+    }
 }
+
+const forecast = getWeatherForecast()
+.then(function (weather) {
+    console.log(weather);
+
+    var dayNum = 0;
+    for (let i = 0; i < weather.list.length; i++) {
+        let date = new Date(weather.list[i].dt_txt);
+        if (date.getHours() == 18) {
+            let day = document.getElementById('day' + dayNum);
+            var weekday = daysOfWeek(date);
+            day.textContent = weekday[date.getDay()];
+
+            let temp = document.getElementById('temp' + dayNum);
+            temp.textContent = Math.round(weather.list[i].main.temp);
+
+            // let img = document.getElementById('img' + dayNum);
+            // img.setAttribute('src', 'http://openweathermap.org/img/wn/10d@2x.png')
+
+            let img = document.getElementById('img' + dayNum);
+            img.setAttribute('src', 'https://openweathermap.org/img/wn/'+ weather.list[i].weather[0].icon +'@2x.png')
+            //https://openweathermap.org/img/wn/04d@2x.png
+
+            dayNum++;
+        }
+        console.log(dayNum);
+    }
+});
+}
+// function weather() {
+//     const current = getWeather()
+//         .then(function (weather) {
+//             console.log(weather);
+    
+//             let temp = document.getElementById('temp');
+//             let highTempValue = document.getElementById('highTempValue');
+//             let humid = document.getElementById('humid');
+//             let windSpeedValue = document.getElementById('windSpeedValue');
+
+            
+//             temp.textContent = Math.round(weather.main.temp);
+//             highTempValue.textContent = Math.round(weather.main.temp_max);
+//             humid.textContent = weather.main.humidity;
+//             windSpeedValue.textContent = Math.round(weather.wind.speed);
+//         });
+   
 
 
 
