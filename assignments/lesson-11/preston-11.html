@@ -71,6 +71,8 @@
             <div class="weatherdetails">
                
               <p>Currently: <span id="currently">Error</span></p>
+
+              <p>Current Temp: <span id="currentTemp">Error</span> &deg;F</p>
               
               <p>High: <span id="highTempValue">Error</span> &deg;F</p>
              
@@ -102,21 +104,21 @@
             
             <table>
               <tr>
-                <th id="day0">Wed</th>
-                <th id="day1">Thu</th>
-                <th id="day2">Fri</th>
-                <th id="day3">Sat</th>
-                <th id="day4">Sun</th>
+                <th id="forecastTempDays0">Wed</th>
+                <th id="forecastTempDays1">Thu</th>
+                <th id="forecastTempDays2">Fri</th>
+                <th id="forecastTempDays3">Sat</th>
+                <th id="forecastTempDays4">Sun</th>
               </tr>
         
          <tbody>
             <tr>
             
-             <td><img alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp0">error</span> &deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp1">error</span> &deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/cloudy.png">  <span id="temp2">error</span>&deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp3">error</span>&deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/rain.png">    <span id="temp4">error</span>&deg;F</td>
+             <td> <img id="weatherimg0" alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp0">error</span> </td>
+             <td> <img id="weatherimg1"alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp1">error</span> </td>
+             <td> <img id="weatherimg2"alt="weather picture" class="cast" src="images/cloudy.png">  <span id="temp2">error</span></td>
+             <td> <img id="weatherimg3"alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp3">error</span></td>
+             <td> <img id="weatherimg4"alt="weather picture" class="cast" src="images/rain.png">    <span id="temp4">error</span></td>
             </tr>
          </tbody>
          </table>
@@ -174,7 +176,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
     <script src="js/windchill.js"></script>
-     <script src="js/prestondata.js"></script> 
+    <script src="js/sodaspringsAPI.js"></script>
+    <script src="js/weatherapi.js"></script>
+     <script src="js/towndata.js"></script> 
     <script src="js/main.js"></script>
 </body>
 
