@@ -30,7 +30,7 @@
             var dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
             jsObject.list.forEach(element => {
                 // check for same time each day
-                if(element.dt_txt.includes('09:00:00')){
+                if(element.dt_txt.includes('18:00:00')){
                     // set lable to correct day
                     document.querySelector('#forecastTempDays' + count).textContent = (dayNames[new Date(element.dt_txt.slice(0, 10)).getDay()]);
     
@@ -38,7 +38,7 @@
                     document.querySelector('#temp' + count).textContent = Math.round(element.main.temp_max) + " °F";
     
                     // set icon for each day
-                    document.querySelector('#forcastimg' + count).setAttribute('src', "http://openweathermap.org/img/wn/" + element.weather[0].icon + ".png")
+                    document.querySelector('#weatherimg' + count).setAttribute('src', "http://openweathermap.org/img/wn/" + element.weather[0].icon + ".png")
                     count = count + 1;
                 };
             });
