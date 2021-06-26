@@ -1,5 +1,5 @@
 async function getWeather() {
-    const url = "https://api.openweathermap.org/data/2.5/forecast?zip=83440,us&units=imperial&appid=be8753d36dab0642baf37a7f8906882f";
+    const url = "https://api.openweathermap.org/data/2.5/forecast?zip=5604473,us&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
     const response = await fetch(url);
 
     if (response.status == 200) {

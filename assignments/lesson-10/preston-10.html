@@ -5,14 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston</title>
-</head>
-<body>
-    
-
-<!doctype html>
-
-<html lang="en-us">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -74,19 +66,20 @@
        <!--The weather summary box info-->
        <div class="land">
         <section class="weathersummary">
-            <h2>Weather Summary</h2>
+            <h3>Weather Summary</h3>
             
             <div class="weatherdetails">
-              <p class="label">Currently:Sunny</p>
-              <!-- <p class="value">Sunny</p> -->
-              <p class="label">High: <span id="highTempValue"></span>49 &deg;F</p>
-              <!-- <p class="value">76 &deg;F</p> -->
-              <p class="label">Wind Chill: <span id="windChillValue"></span> &deg;F</p>
-              <!-- <p class="value">69%</p> -->
-              <p class="label">Humidity: 95%</p>
-              <!-- <p class="value">0 inches</p> -->
-              <p class="label">Wind Speed: <span id="windSpeedValue"></span> 12 mph</p>
-              <!-- <p class="value">5 mph</p> -->
+               
+              <p>Currently: <span id="currently">Error</span></p>
+              
+              <p>High: <span id="highTempValue">Error</span> &deg;F</p>
+             
+              <p >Wind Chill: <span id="windChillValue">Error</span> &deg;F</p>
+              
+              <p>Humidity:<span id="humid">Error</span> %</p>
+            
+              <p>Wind Speed: <span id="windSpeedValue">Error</span> mph</p>
+              
             </div>
            
             
@@ -104,28 +97,26 @@
 
     <main>
 
-        <h5>Daily Temperature Forecast</h5>
+        <h5 id="fiveday">5 Day Forecast</h5>
         <section class="forecast">
             
             <table>
-         <!-- <thead> -->
-             <tr>
-             <!-- <th>Day</th> -->
-             <th>Wed</th>
-             <th>Thu</th>
-             <th>Fri</th>
-             <th>Sat</th>
-             <th>Sun</th>
-            </tr>
-         <!-- </thead> -->
+              <tr>
+                <th id="day0">Wed</th>
+                <th id="day1">Thu</th>
+                <th id="day2">Fri</th>
+                <th id="day3">Sat</th>
+                <th id="day4">Sun</th>
+              </tr>
+        
          <tbody>
             <tr>
-             <!-- <th>Forecast</th> -->
-             <td><img alt="weather picture" class="cast" src="images/partsun.png"> 89&deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/partsun.png">87&deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/cloudy.png">78&deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/partsun.png">75&deg;F</td>
-             <td><img alt="weather picture" class="cast" src="images/rain.png">62&deg;F</td>
+            
+             <td><img alt="weather picture" class="cast" src="http://openweathermap.org/img/wn/10d@2x.png"> <span id="temp0">error</span> &deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp1">error</span> &deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/cloudy.png">  <span id="temp2">error</span>&deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/partsun.png"> <span id="temp3">error</span>&deg;F</td>
+             <td><img alt="weather picture" class="cast" src="images/rain.png">    <span id="temp4">error</span>&deg;F</td>
             </tr>
          </tbody>
          </table>
