@@ -768,6 +768,115 @@ footer {
 }
 
 
+/******************
+  LESSON 8 STORM CENTER
+  *******************/
+  /*-------- FORM --------*/
+
+  form fieldset {
+    
+    margin: 2rem 0;
+    border: 3px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    color: #fffbfb;
+}
+
+#top{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: rgb(3, 3, 3);
+    width: 100%;
+    max-width: 4020rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #fffbfb;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    /* -webkit-appearance: none; */
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: rgb(3, 3, 3);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+    
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: rgb(245, 244, 244);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+    
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+    
+}
+
+
+
+/**************
+THANK YOU COMMENTS
+***************/
+
+#para {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 25px; */
+    text-align:left;
+    line-height: 1em;
+    margin: 0 auto;
+    
+}
+
+#thnks-sect {
+    text-align: center;
+}
+
+
+#thnks-sect p{
+    width: 900px; 
+    margin: 0 auto;
+    padding-bottom: 1em;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+
+
 
 
 
