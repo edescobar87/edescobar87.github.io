@@ -228,40 +228,28 @@ hr {
             grid-template-columns: 50% 50%;
         }
 
-        /**********************
-        LESSON 9 HOME PAGE
-        ***********************/
 
-       
-        /* div.towns {
-            display: flex;
-            flex-direction: row;
-            margin: 1em;
-        }
-    
-        div.towns:nth-child(odd) {
-            flex-direction: row-reverse;
-        }
-    
-        div.towns div:nth-child(odd) {
-            padding: .5em;
-            min-width: 13em;
-        }
-    
-        div.towns div:nth-child(even) {
+        /*******************************
+        HOME PAGE TOWNS JSON
+        ********************************/
+        main #cities  {
             display: flex;
             justify-content: center;
-            align-items: center;
-            margin: .5em;
-        }
-     */
-        /* .towns img {
-            width: auto;
-            height: auto;
-            max-width: 100%;
-            max-height: 100%;
-        } */
+            flex-wrap: wrap;
+            flex-direction: column;
+            max-width: 600px;
 
+        }
+
+        #cities article {
+            display: flex;
+            flex-direction: column;
+            justify-content:stretch;
+            margin: 10px;
+            max-height: 100%;
+        }
+
+       
        
        
        
@@ -349,9 +337,10 @@ hr {
     article ul {
         font-size: 100%;
         text-align:left;
+        font-size: 17px;
     }
 
-      main #cities  {
+      main #cities   {
         display: grid;
         
         grid-template-columns: repeat(4, 80%) ;
@@ -360,13 +349,17 @@ hr {
         
         max-width: 1000px;
         gap: 1em;
-        display: block;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
        
     } 
 
-     article{
-        grid-column: 2 / 3;
-    }
+     /* article{
+        grid-column: 1 / 2;
+        grid-row: ;
+    } */
+   
 
    
 
@@ -395,6 +388,12 @@ header > img {
     height: auto;
     vertical-align: middle;
 }   
+
+header .backhome img{
+    width: 200px;
+    height: auto;
+    margin-right: 2em;
+}
 
 .headertext {
     display: inline-block;
