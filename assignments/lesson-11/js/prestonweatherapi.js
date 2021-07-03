@@ -2,7 +2,7 @@
  WEATEHER API PRESTON/FISH/SODA
  ******************************/
 
-    const apiURL = "https://api.openweathermap.org/data/2.5/weather?&id=5607916&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
+    const apiURL = "https://api.openweathermap.org/data/2.5/weather?&id=5604473&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
 
     fetch(apiURL)
     .then((response) => response.json())
@@ -20,7 +20,7 @@
  ***********************************************/
 
 
-    const forecastapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
+    const forecastapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=ec88a9a3a0d62c0053ddeb7408e1bda3";
 
     fetch(forecastapiURL) 
         .then ((response) => response.json())
