@@ -508,6 +508,17 @@ footer {
     text-align: center;
    
   }
+  #bottominfo{
+      max-width: 97%;
+  }
+
+  /**************************
+  MEDIA ICONS BOTTOM INFORMATION
+  ***************************/
+  .media{
+      padding: 1em;
+      margin: 0 auto;
+  }
 
   .footnote {
     display: inline-block;
