@@ -1,0 +1,21 @@
+/* General main page styles */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(204, 180, 148);
+    font-family: 'oswald' , sans-serif;
+    color: cornsilk;
+}
+
+#sitelogo {
+    width: 50em;
+}
+
+
+h1 {
+    font-family: cursive;
+}
+
+
+
