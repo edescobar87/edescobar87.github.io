@@ -259,6 +259,7 @@ hr {
             justify-content:stretch;
             margin: 10px;
             max-height: 100%;
+            grid-column: 2/2;
         }
 
         article {
@@ -524,14 +525,7 @@ footer {
 
   .footnote {
     display: inline-block;
-    /* display: grid;
-    grid-template-columns: repeat(2, auto);
-    max-width: 100%;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    margin-left: 28.5em;
-    display: block;
-    background-color: #2E4600; */
+    
     text-align: center;
     background-color: #2E4600;
     
@@ -552,11 +546,7 @@ footer {
   }
 
   .article {
-    /* text-align: center;
-    background-color: #FB6542;
-    height: 20px;
-    color: ivory;
-    padding: 0; */
+   
     display: grid;
     grid-template-columns: repeat(2, auto);
     max-width: 900px;
@@ -754,6 +744,10 @@ footer {
         height: auto;
         max-width: 100%;
         max-height: 100%;
+    }
+
+    #cities article img {
+        border-radius: 25px;
     }
     
     
