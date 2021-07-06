@@ -8,19 +8,294 @@
     margin-top: 2em;
     align-items: center;
     }
-    .headeright {
+    .headerRight {
     font-size: 2.2em;
     }
+    /* Page Title */
+    .pageTitle {
+    font-size: 3em;
+    }
+    /* Navigation */
+    nav{
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 25%;
+        background-color: #7abad3;
+        /* border-radius: 20%; */
+    
+    }
 
-    /***********
-     Navigation 
-     **********/
     nav button { 
         display: none; 
     }
     .active {
-    background-color: #d1d5d8;
-    border-radius: 4em 4em 0 0;
+    background-color: #424344;
+    /* border-radius: 4em 4em 0 0; */
     }
 
+    .navigation {
+    list-style: none;
+    margin: 0; 
+    font-size:  1.2rem;
+    background: #851414;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    border-bottom: 1px solid #5c2121;
+    -webkit-box-shadow: 0 6px 6px 0 rgb(53, 53, 53);
+    -moz-box-shadow: 0 6px 6px 0 rgb(53, 53, 53);
+        box-shadow: 0 6px 6px 0 rgb(53, 53, 53);
+    }
+    #primaryNav {
+    display: grid;
+    padding-right: 5em;
+    width: 900px;
+    margin: 16px auto;
+    grid-template-columns: repeat(6,auto);
+    }
+
+    .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 0.8em 1em;
+    color: #501f1f;
+    }
+    .navigation a:hover {
+    color: #d1d5d8;
+    text-decoration: overline;
+    text-decoration-color: #bec92c;
+    }
+    .active {
+    background-color: #eff3f7;
+    /* border-radius: 5em 5em 0 0; */
+    margin-right: 2px;
+    }
+    .active a:hover {
+    color: #bdd842;
+    text-decoration: none;
+    }
+
+    /* footer section */
+    footer {
+    max-width:75%;
+    margin: 0 auto;
+    }
+    .footerinfo{
+    align-content: center;
+    align-items: center;
+    padding: 0.2em;
+    color: teal;
+    }
+
+    #prefootMid {    
+    justify-content: space-evenly;
+    align-self: center;
+    padding: 25px;
+    }
+
+    .iconLinks {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    }
+    #midfootMid a {   
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 25px;
+    }
+    #prefootMid div {
+    align-self: center;
+    }
+    #map iframe {
+    width: 400px;
+    height: 300px;
+    }
+
+
+
+
+    /**************
+    *  
+    * Home Page
+    *
+    ***************/
+    #mainWelcome {
+    flex-flow: row;
+    margin-top: 5em;    
+    }
+    #homeContent {
+    width: 75%;
+    }
+    .homeMain {
+    justify-content: space-around;
+    }
+    /* Hero Img Section */
+    .heroContainer {
+    position: relative;
+    }
+    .heroContainer img {
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    }
+    .heroContainer a {
+    position: absolute;
+    width: 25%;
+    bottom: -1em;
+    left: -1em;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    }
+    /* Temple Info Section */
+    #mainWelcome > div:nth-child(1) {
+    padding: 0 2em;
+    }
+    .templeInfoContainer {
+    max-width: 50%;
+    margin: 5em auto 1em auto;
+    background-color: #d1d5d8;
+    padding: 2em;
+    border-radius: 0.2em;
+    justify-content: space-around;
+    }
+    .TempImg {
+    padding-top: 2em;
+    align-self: flex-start;
+    }
+    .TempImg img{
+    width: 100%;
+    border-radius: 25px;
+    }
+    .templeTextContainer{
+    margin-left: 2em;
+    }
+    .mainTempleInfo h3{
+    margin-bottom: -0.6em;        
+    }
+    /* Amenities Section */
+    .amenitiesHome {
+    margin: 5em;
+    background-color: #1f1f1f;
+    padding: 2em;
+    border-radius: 0.2em;
+    color: #FFFEFE;
+    }
+    .amenitiesHome li {
+    padding: 0.38em 0;
+    list-style: none; 
+    }
+    .amenitiesHome li:before {
+    content: "\2022";
+    color: #5c8301;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    }
+
+    /**************
+    *  
+    * Temple Page
+    *
+    ***************/
+
+
+    /**************
+    *  
+    * Reservation Page
+    *
+    ***************/
+    /* Form Title */
+    #reservationTitle {
+    color: rgb(255,254,254);
+    align-self: center;
+    margin-right: 0.5em;
+    text-align: center;
+    }
+
+    /* Form Container */
+    .containerReservation {
+    display: flex;
+    max-width: 75%; 
+    flex-flow: row;
+    margin: 5em 5em 5em 15em;
+    }
+    .reservationForm {
+    margin: 2em;
+    }
+    .reservationFormWrapper {
+    margin: 2em;
+    }
+    /* Form Content */
+    #reservationInputTop {
+    flex-flow: column;
+    justify-content: space-evenly;
+    }
+    #upperUpper, #lowerUpper {
+    margin: 2em;
+    flex-flow: row;
+    justify-content: space-around;
+    }
+    #upperUpper > div, #lowerUpper > div {
+    justify-content: space-evenly;
+    margin-right: 1.5em;
+    }
+
+    .reservationForm .messageReservation {
+    flex-flow: column;
+    align-self: flex-start;
+    width: 300px;
+    }
+    .reservationForm .messageReservation textarea{
+    height: 200px;
+    width: 100%;
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid rgba(92,131,1, 0.8);
+    padding: 10px;
+    color: #1f1f1f;
+    }
+
+
+
+
+
+    /**************
+    *  
+    * Contact Page
+    *
+    ***************/
+    .containerContact{
+    flex-direction: column;
+    }
+    .formField{
+    flex-flow: row;
+    justify-content: center;
+    }
+    .contact-form{
+    width: 400px;
+    padding: 30px;
+    }
+    .input-field{
+    flex-direction: column;
+    width: 100%;
+    }
+    .bznssInfo{
+    flex-flow: row wrap;
+    align-self: flex-start;
+    }
+
+
+    /**************
+    *  
+    * Resources Page
+    *
+    ***************/
+    #resourcesContainer {
+    max-width: 75%;
+    }
 }

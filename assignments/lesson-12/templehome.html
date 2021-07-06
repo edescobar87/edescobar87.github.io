@@ -29,7 +29,7 @@
         <!--NAVIGATION HERE-->
         <nav>
         <button onclick="toggleMenu()">&#9776; Menu</button>
-        <ul id="mainNav" class="navHide">
+        <ul id="primaryNav" class="navHide">
             <li class="active"><a href="https://edescobar87.github.io/assignments/lesson-12/templehome.html">Home</a></li>
             <li class="#"><a href="https://edescobar87.github.io/assignments/lesson-12/temples.html">Temple</a></li>
             <li class="#"><a href="https://edescobar87.github.io/assignments/lesson-12/temples.html">Reservation</a></li>
@@ -38,6 +38,156 @@
         </ul>
         </nav>
     </div>
+
+
+
+    <!-- Hero Image -->
+    <div class="containerMain" id="homeContent">
+        <div class="heroContainer">
+            <picture>
+                <source media="(max-width: 415px)" srcset="images/couplebench.jpg">
+                <source media="(min-width: 416px)" srcset="images/couplebench.jpg">
+                <img id="backgroundHeroImage" src="images/couplebench.jpg" alt="Couple on bench">
+            </picture>
+            <a href="reservation.html" class="bookNowBtn">Book Now</a>
+        </div>
+
+        <main>
+            <!-- Welcome Text -->
+            <div id="mainWelcome">
+
+                <div id="welcomeText">
+                    <h1>Temple Inn & Suites</h1>
+                    <p id="welcomeSubTitle">Doing work for the dead can be exhausting, let us help <strong>YOU</strong>
+                        rest in peace!</p>
+                    <p>We are happy you are here. While you prepare to help those go forward in who have already passed on from this earth, we are getting ready for you. We
+                        have many services and accomodations to meet your needs, we are here for you. If you have
+                        any questions or concerns, please give us a call, 867.530.9999. We are ready to help, and we are looking
+                        forward to your stay with us. Please follow the reservation link <a href="reservation.html">here</a>. And be ready for the stay of your life.</p>
+                    <p>Temple Inn & Suites caters to temple workers, patrons, and their families by providing
+                        specialized service and accomodations that meet the needs of those patrons. These hotel
+                        accomodations and services are available to anyone willing to abide by the terms and policies
+                        outlined by our company.</p>
+                    <p>Thank you!</p>
+                </div>
+
+
+                <!-- <div id="mainImgDiv">
+                    <picture>
+                        <source media="(max-width: 415px)" srcset="images/lobby.jpg">
+                        <source media="(min-width: 416px)" srcset="images/lobby.jpg">
+                        <img id="backgroundImage" src="images/lobby.jpg" alt="hotel lobby image">
+                    </picture>
+                </div> -->
+
+            </div>
+
+
+            <div class="homeMain">
+                <!-- Temple Info -->
+                <div class="templeInfoContainer">
+
+                    <div class="TempImg">
+                        <h2>Snowflake Arizona</h2>
+                        <img src="images/snowflaketemple.jpg" alt="Snowflake Arizona Temple">
+                    </div>
+
+                    <div class="templeTextContainer">
+                        <div class="mainTempleInfoHome">
+                            <h3>Address</h3>
+                            <p>1875 Canyon Dr, Snowflake, AZ 85937</p>
+                            <h3>Telephone</h3>
+                            <p><a href="(928) 536-6626">(928) 536-6626</a></p>
+                            <h3>Services</h3>
+                            <p><strong>PHASE 3:</strong>TEMPLE OPEN FOR ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES</p>
+                            <p>Clothing rental available</p>
+                            <p>Cafeteria available</p>
+                            <p>No patron housing available</p>
+                            <p>Distribution center nearby</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amenities Summary -->
+                <section class="amenitiesHome">
+                    <h2>Free Amenities Include</h2>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Excersize/workout room</li>
+                        <li>Indoor pool</li>
+                        <li>WiFi high-speed internet access</li>
+                        <li>Smart tvs</li>
+                        <li>Parking</li>
+                        <li>Family history consultation</li>
+                        <li>Family ordinance card services</li>
+                    </ul>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="preFooter">
+            <div id="prefootMid">
+
+                <div id="map">
+                    <!-- <iframe title="hotelMainMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+                        style="border:0" allowfullscreen></iframe> -->
+                        <iframe title="hotelMainMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.0148498839903!2d-110.11385118447147!3d34.50250780131398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872f3cebe188fa55%3A0x9073714952615537!2sSnowflake%20Arizona%20Temple!5e0!3m2!1sen!2sus!4v1625601302873!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div id="bottomfooterinfo">
+
+                    <h4>Temple Inn & Suites</h4>
+
+                    <address>
+                        <div class="footerinfo">
+                            <div>
+                                <img src="images/location.png" alt="location icon">
+                            </div>
+                            <div>
+                                <p>875 W Canyon Dr Snowflake AZ 85937-6014</p>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="footerinfo">
+                        <img src="images/phone.png" alt="phone icon"><a href="tel:(928) 536-6626">(867) 530-9999</a>
+                    </div>
+
+                    <div class="footerinfo">
+                        <img src="images/mail.png" alt="mail icon"><a href="mailto:templeinnsuites@tis.com">templeinns@suites.com</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="midfootMid">
+                <div class="iconLinks">
+                    <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook icon"></a>
+                    <a href="instagram.com"><img src="images/instagram.png" alt="instagram icon"></a>
+                    <a href="twitter.com"><img src="images/twitter.png" alt="twitter icon"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottomFooter">
+            <div>
+                <p>&copy;2020 Temple Inn & Suites | Attributions | Edwin E. Escobar</p>
+            </div>
+            
+        </div>
+
+    </footer>
+
+
+
+
+
+
         <!--SCRIPTS-->
         <script src="js/toggmenu.js"></script>
         <script src="js/button.js"></script>
