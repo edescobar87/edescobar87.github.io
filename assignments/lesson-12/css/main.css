@@ -143,9 +143,9 @@
         width: 100%;
         text-align: center;
         margin: 0;
-        background-color: #FFFEFE;
-        -webkit-box-shadow: 0 -6px 6px 0 rgb(53, 53, 53);
-        -moz-box-shadow: 0 -6px 6px 0 rgb(53, 53, 53);
+        background-color: #a35c0a;
+        /* -webkit-box-shadow: 0 -6px 6px 0 rgb(53, 53, 53);
+        -moz-box-shadow: 0 -6px 6px 0 rgb(53, 53, 53); */
         box-shadow: 0 -6px 6px 0 rgb(53, 53, 53);
     }
     .bottomFooter a {
