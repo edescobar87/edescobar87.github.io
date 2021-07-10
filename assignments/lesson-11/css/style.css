@@ -4,12 +4,7 @@ body {
     background-color: #505160;
     }
     
-    nav{
-        margin: 0 auto;
-        max-width: 360px;
-        background-color: #12aaeb;
     
-    }
     
     #navigation {
         list-style: none;
@@ -250,7 +245,7 @@ hr {
         }
 
         main id #cities article {
-            grid-row: 2/2;
+            grid-row: 1/2;
         }
 
         #cities article {
@@ -259,7 +254,8 @@ hr {
             justify-content:stretch;
             margin: 10px;
             max-height: 100%;
-            grid-column: 2/2;
+            /* grid-column: 1/2; */
+            grid-row: 1/1;
         }
 
         article {
