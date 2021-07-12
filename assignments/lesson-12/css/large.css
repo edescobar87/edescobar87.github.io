@@ -208,7 +208,11 @@
     * Reservation Page
     *
     ***************/
-   
+   /*  Reservation Title */
+   .restitle {
+       margin-left: 2%;
+       margin-right: 2%;
+   }
    
 
     /* Form Container */
