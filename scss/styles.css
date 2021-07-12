@@ -355,7 +355,8 @@ html {
 
 /* body rules */
 body {
-  font-family: "times";
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -367,6 +368,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 header h2 {
@@ -412,6 +414,7 @@ main {
 
 main h1 {
   color: #17a8e4;
+  font-weight: 700;
 }
 
 main figure img {
