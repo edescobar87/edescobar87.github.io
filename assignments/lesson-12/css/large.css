@@ -1,3 +1,8 @@
+/****************************************************************************
+FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
+*****************************************************************************/
+
+
 @media only screen and (min-width: 1025px) {
 
     /* Header */
@@ -11,11 +16,15 @@
     .headerRight {
     font-size: 2.2em;
     }
-    /* Page Title */
+    /***************************
+     Page Title Right Over Here 
+     **************************/
     .pageTitle {
     font-size: 3em;
     }
-    /* Navigation */
+    /**************
+    Navigation Baby
+    ***************/
     nav{
         margin: 0 auto;
         max-width: 100%;
@@ -78,7 +87,9 @@
     text-decoration: none;
     }
 
-    /* footer section */
+    /**************************
+     footer section information
+     **************************/
     footer {
     max-width:75%;
     margin: 0 auto;
@@ -117,11 +128,9 @@
 
 
 
-    /**************
-    *  
-    * Home Page
-    *
-    ***************/
+    /******************************* 
+     Home Page Is Where The Heart Is
+    ********************************/
     #mainWelcome {
     flex-flow: row;
     margin-top: 5em;    
@@ -132,7 +141,9 @@
     .homeMain {
     justify-content: space-around;
     }
-    /* Hero Img Section */
+    /***********************************
+     I Can Be Your Hero Img Section Baby 
+     **********************************/
     .heroContainer {
     position: relative;
     }
@@ -150,7 +161,9 @@
     font-size: 1.5em;
     border-radius: 0.5em;
     }
-    /* Temple Info Section */
+    /****************************
+     Temple Info Section Is Life
+     ****************************/
     #mainWelcome > div:nth-child(1) {
     padding: 0 2em;
     }
@@ -176,7 +189,9 @@
     .mainTempleInfo h3{
     margin-bottom: -0.6em;        
     }
-    /* Amenities Section */
+    /*******************************
+     Amenities Section For The Soul 
+     *******************************/
     .amenitiesHome {
     margin: 5em;
     background-color: #1f1f1f;
@@ -197,18 +212,15 @@
     margin-left: -1em;
     }
 
-    /**************
-    *  
-    * Temple Page
-    *
-    ***************/
+    /********************************
+     TEMPLE PAGE IS WHAT'S FOR DINNER
+    *********************************/
 
 
-    /**************
-    *  
-    * Reservation Page
-    *
-    ***************/
+    /**************************  
+     Reservation Page FOr Life
+    ***************************/
+
    /*  Reservation Title */
    .restitle {
        margin-left: 2%;
