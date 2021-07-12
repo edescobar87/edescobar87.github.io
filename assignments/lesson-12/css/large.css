@@ -29,7 +29,7 @@
         display: none; 
     }
     .active {
-    background-color: #424344;
+    background-color: #a0b6cc;
     /* border-radius: 4em 4em 0 0; */
     }
 
@@ -68,9 +68,10 @@
     text-decoration-color: #bec92c;
     }
     .active {
-    background-color: #eff3f7;
-    /* border-radius: 5em 5em 0 0; */
+    background-color: #c7c75d;
+    border-radius: 5em 5em ;
     margin-right: 2px;
+    width:fit-content;
     }
     .active a:hover {
     color: #bdd842;
