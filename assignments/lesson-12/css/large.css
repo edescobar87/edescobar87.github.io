@@ -208,22 +208,17 @@
     * Reservation Page
     *
     ***************/
-    /* Form Title */
-    #reservationTitle {
-    color: rgb(255,254,254);
-    align-self: center;
-    margin-right: 0.5em;
-    text-align: center;
-    }
+   
+   
 
     /* Form Container */
-    .containerReservation {
+    .containerRes {
     display: flex;
     max-width: 75%; 
     flex-flow: row;
     margin: 5em 5em 5em 15em;
     }
-    .reservationForm {
+    .resForm {
     margin: 2em;
     }
     .reservationFormWrapper {

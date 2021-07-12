@@ -203,8 +203,8 @@
         color: #0B0B0B;
     }
     /* Temple Info Section */
-    .templeInfoContainer {
-        background-color: #d1d5d8;
+   #temple {
+        background-color: #195685;
         padding: 2em;
         border-radius: 0.2em;
         display: flex;
@@ -213,7 +213,7 @@
         padding-top: 2em;
         align-self: flex-start;
     }
-    .indTempImg img{
+    #temple h2 img{
         max-width: 100%;
         border-radius: 0.2em;
     }
@@ -376,8 +376,8 @@
 }
 
 /* Form Container */
-.reservationFormWrapper {
-    background: rgba(255,254,254, 0.8);
+.resFormWrapper {
+    background: rgba(104, 172, 218, 0.8);
     border-radius: 5px;
     box-shadow: 0 0 10px;
 }
