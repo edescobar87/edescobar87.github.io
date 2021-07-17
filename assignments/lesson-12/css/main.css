@@ -448,7 +448,7 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 2em;
 }
 .contact-form{
-    background: rgba(31,31,31,0.9);
+    background: rgba(10, 10, 9, 0.795);
     border-radius: 5px;
     display: flex;
     box-shadow: 0 0 10px;
