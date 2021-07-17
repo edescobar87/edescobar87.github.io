@@ -23,6 +23,7 @@ function buildTempleCard(temple){
                 <img src="${temple.imageurl}" alt="${temple.name}">
                 <p>Phone Number: <b>${temple.phone[0]} 1st of ${temple.phone.length}</b></p>
                 <p>Current President: <b>${temple.presidents[temple.presidents.length-1]}</b></p>`;
+                
     document.querySelector("#temples").appendChild(card);
 }
 
@@ -87,11 +88,11 @@ async function getTemples() {
                         milestones.innerHTML += ` - `
                     }
                     if (i % 2 == 0 && i != 0) {
-                        milestonesy.innerHTML += `
+                        milestones.innerHTML += `
                         <br>
                         `;
                     }
-                    milestonesy.innerHTML += `${milestonesS[i]}`;
+                    milestones.innerHTML += `${milestonesS[i]}`;
                 }
                 ordinance.innerHTML = `
                 <p><b>Ordinance and Session Schedule</b>
