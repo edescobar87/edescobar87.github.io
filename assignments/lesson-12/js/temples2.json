@@ -1,12 +1,17 @@
 [
     {
-        "name":"Idaho Falls Temple",
-        "phone":"208-522-7559",
-        "address1":"1000 Memorial Dr.",
-        "city":"Idaho Falls",
-        "state":"ID",
-        "zip":83402,
-        "imageurl":"https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png",
+        "name":"Snowflake Arizona Temple",
+        "phone":"(1) 928-536-6626",
+        "address1":"1875 W Canyon Dr",
+        "email": "Log in to send email to temple",
+        "services":"No clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+        "city":"Snowflake",
+        "state":"AZ",
+        "closures":"2021 Saturday, 17 July 2021 (Limited Operations) Saturday, 24 July 2021 (Limited Operations) Wednesday, 28 July 2021 (Limited Operations) Friday, 30 July 2021 (Limited Operations) Saturday, 31 July 2021 (Limited Operations) Monday, 13 September 2021 - Monday, 8 November 2021 Thursday, 25 November 2021 - Friday, 26 November 2021 Friday, 24 December 2021 - Saturday, 25 December 2021 Friday, 31 December 2021 (Limited Operations)",
+        "zip":85937,
+        "additionalinfo":"Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+        "milestones":"Milestones 2 April 2000 Announced 23 September 2000 Groundbreaking 3 March 2002",
+        "imageurl":"https://assets.ldscdn.org/28/e7/28e7503bb1ca0f68b265d55f20403f21c223e948/snowflake_temple_lds.jpeg",
         "presidents":[
             "David Smith","William Killpack","Parley Arave","Cecil Hart","Delbert Groberg","Devere Harris","Rheim Jones","Milton Romrell","C. Gayle Williams","Preston Brimhall","Glen Nelson","Mark Ricks","Newell Richardson","John Groberg","Larry Stoddard","Gerald Mead","Donald Archibald","Doyle Batt"
         ]
