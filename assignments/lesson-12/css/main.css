@@ -39,7 +39,7 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
     .onHover:hover {
         -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
         -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-                box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+        box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
     }
 
 
@@ -55,7 +55,7 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
     }
     #siteLogo:hover {
         -webkit-filter: drop-shadow(5px 2px 2px #0B0B0B);
-    filter: drop-shadow(5px 2px 2px #0B0B0B);
+        filter: drop-shadow(5px 2px 2px #0B0B0B);
     }
 
     .headerRight a {
@@ -158,10 +158,8 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
         color: #a5ec00;
     }
 
-    /**************
-    *  
-    * Home Page
-    *
+    /**************  
+     Home Page
     ***************/
     /* Hero img and book now btn */
     #mainWelcome {
@@ -170,8 +168,8 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
     #mainWelcome img {
         border-radius: 0.2em;
         -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-            box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+        -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+        box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
     }
     #mainWelcome h1 {
         font-size: 2.262em;
@@ -197,8 +195,6 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
         background-color: #834b01;
         color: #FFFEFE;
         border-radius: 0.5em;
-        -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-        -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
         box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
     }
     .heroContainer a:hover {
@@ -249,11 +245,9 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
 
 
 
-    /**************
-    *  
-    * Temple Page
-    *
-    ***************/
+    /******************************
+     Temple Page Got The Best Of Me
+    *******************************/
     .templeTitleBox {
         width: 300px;
         margin: 3em 2em 0 0;
@@ -261,26 +255,6 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
         background-color: #1f1f1f;
         color: #FFF;
         border-radius: 2%;
-    }
-    .weatherSumBox {
-        max-width: 300px;
-        margin: 3em 2em 0 0;
-        padding: 15px;
-        background-color: #1f1f1f;
-        color: #FFF;
-        border-radius: 2%;
-    }
-    .weatherSumBox .value {
-        color: #9ee200;
-    }
-    
-    .weatherInfoLine .label, .weatherInfoLine .value {
-        display: inline-block;
-        margin: 2px;
-    }
-    .wImageDiv {
-        max-width: 100px;
-        margin: 0 auto;
     }
     
 .templeInfoContainerBox {
@@ -306,8 +280,6 @@ FOR THE GLORY OF MERLIN THSI WEBSITE WILL NOT GET THE BEST OF MMEEEEEEEEE!!!!
     background-color: rgba(92,131,1, 0.5);
     padding: 0.5em 1em;
     cursor: pointer;
-    -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
             box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
 }
 #smallViewBtoTop:focus {outline:0;}
