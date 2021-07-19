@@ -451,7 +451,7 @@ input::placeholder {
     height: 100px;
     width: 100%;
 }
-.btn {
+submitBtn {
     background-color: #8fdee9;
     max-width: 100%;
     text-align: center;
@@ -464,7 +464,7 @@ input::placeholder {
     font-size: 1.2em;
     box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
 }
-.btn:hover {
+submitBtn:hover {
     background: rgba(238, 220, 58, 0.8);
     color: #FFFEFE;
     -webkit-box-shadow: 1px 4px 8px 1px rgb(32, 32, 32);
